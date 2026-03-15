@@ -12,20 +12,20 @@ import cpp_wrappers.cpp_subsampling.grid_subsampling as cpp_subsampling
 
 class Config:
     num_points = 65536  # Number of input points
-    sub_grid_size = 0.1# 这个参数被弃用； 0.01  # preprocess_parameter
+    sub_grid_size = 0.1#0.01  # preprocess_parameter
 
     train_steps = 50 #200  # Number of steps per epochs
     val_steps = 20 # 100    # Number of validation steps per epoch
 
     sampling_type = 'active_learning'
-    class_weights = [1.0, 1.0, 1.0]# [1.0, 1.0, 1.0, 1.0, 1.0]
+    class_weights = [1.0, 1.0, 1.0, 1.0, 1.0]
 
     d_in = 9 # <--- 非常重要！这里必须改成 9 (RGB 3 + Intensity 1 + Return 2 + XYZ 3 本身在data loader处理)
              # 实际上 data.py 里通常只读取 features 的维度。
              # 如果你的 data_loaders 是 split xyz 和 features 的，
              # 那么 features 的维度是 6 (RGB+I+Ret+NRet)。
              # 可以在运行 train.py 前先由它自动检测。
-    num_classes = 3 # 0, 1, 2, 3, 4
+    num_classes = 5 # 0, 1, 2, 3, 4
 
 
 # 弃用 

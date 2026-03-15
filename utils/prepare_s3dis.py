@@ -5,8 +5,12 @@ from pathlib import Path
 import warnings
 
 ROOT_PATH = (Path(__file__) / '..' / '..').resolve()
+# DATASET_PATH = ROOT_PATH / 'datasets' / 's3dis'
+# RAW_PATH = DATASET_PATH / 'Stanford3dDataset_v1.2'
+
 DATASET_PATH = ROOT_PATH / 'datasets' / 's3dis'
-RAW_PATH = DATASET_PATH / 'Stanford3dDataset_v1.2'
+RAW_PATH = DATASET_PATH  # 因为 Area_1 直接就在 s3dis 文件夹下面
+
 LABELS_PATH = DATASET_PATH / 'classes.json'
 TRAIN_PATH = DATASET_PATH / 'train'
 TEST_PATH = DATASET_PATH / 'test'
@@ -42,7 +46,17 @@ for area_number in range(1,7):
         for elem in sorted(list(pc_path.glob('Annotations/*.txt'))):
             label = elem.stem.split('_')[0]
             print(f'Computation of {pc_name}: adding {label} to point cloud...          ', end='\r')
-            points = np.loadtxt(elem, dtype=np.float32)
+            # points = np.loadtxt(elem, dtype=np.float32)
+
+            # 使用 usecols 限制只读前 6 列，防止某些行多出或缺少数据导致崩溃
+            try:
+                points = np.loadtxt(elem, dtype=np.float32, usecols=(0, 1, 2, 3, 4, 5))
+            except ValueError:
+                # 如果还是报错，说明某一行数据严重缺失（少于 6 列），则跳过该错误行
+                points = np.genfromtxt(elem, dtype=np.float32, invalid_raise=False)
+                # genfromtxt 有时会产生维度问题，确保它是 2D 数组且列数为 6
+                if points.ndim == 1 or points.shape[1] != 6:
+                    continue
             label_id = labels_dict[label]
             labelled_points = np.vstack((points.T, np.full(points.shape[0], label_id))).T
             points_list.append(labelled_points.astype(np.float32))

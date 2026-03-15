@@ -67,11 +67,31 @@ def train(args):
     )
 
     print('Computing weights...', end='\t')
-    samples_per_class = np.array(cfg.class_weights)
+    #samples_per_class = np.array(cfg.class_weights)
 
-    n_samples = torch.tensor(cfg.class_weights, dtype=torch.float, device=args.gpu)
+    # 在 train(args) 函数内修改
+    # 临时方案：如果不想预先统计全集频率，先设为全 1（等权）
+    weights = torch.ones(num_classes, device=args.gpu) 
+    print('Done. (Using equal weights for testing)')
+    criterion = nn.CrossEntropyLoss(weight=weights)
+
+    # n_samples = torch.tensor(cfg.class_weights, dtype=torch.float, device=args.gpu)
+
+    if hasattr(cfg, 'class_weights') and len(cfg.class_weights) == num_classes:
+        n_samples = torch.tensor(cfg.class_weights, dtype=torch.float, device=args.gpu)
+    else:
+        # 如果配置不匹配，使用简单的自动平衡
+        n_samples = torch.ones(num_classes, dtype=torch.float, device=args.gpu)
+    
+    
+
     ratio_samples = n_samples / n_samples.sum()
-    weights = 1 / (ratio_samples + 0.02)
+    # weights = 1 / (ratio_samples + 0.02)
+
+    print('Computing manual weights for SlopeLAS...', end='\t')
+    # 给 1-4 类灾害极高的权重（因为它们只占不到 1%）
+    # 顺序：[正常点, 灾害1, 灾害2, 灾害3, 灾害4]
+    weights = torch.tensor([1.0, 40.0, 40.0, 40.0, 40.0], dtype=torch.float, device=args.gpu)
 
     print('Done.')
     print('Weights:', weights)

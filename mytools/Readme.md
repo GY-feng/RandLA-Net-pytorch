@@ -1,0 +1,1 @@
+generate_nums.py：生成随机的数字，方便放到那个train,val,test里面
