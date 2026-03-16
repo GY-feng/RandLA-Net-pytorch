@@ -1,0 +1,117 @@
+{
+  "id": 41,
+  "data": {
+    "image": "/data/upload/44/ce6673e4-202511061517_191_K514-700-860.png"
+  },
+  "annotations": [
+    {
+      "id": 38,
+      "result": [
+        {
+          "original_width": 5023,
+          "original_height": 2798,
+          "image_rotation": 0,
+          "value": {
+            "points": [
+              [
+                77.4873570402962,
+                87.01117318435753
+              ],
+              [
+                59.12689894641075,
+                50.13966480446926
+              ],
+              [
+                48.779691630788875,
+                25.83798882681564
+              ],
+              [
+                47.457116259619156,
+                21.508379888268152
+              ],
+              [
+                45.74554813222306,
+                19.692737430167597
+              ],
+              [
+                43.10039738988363,
+                19.972067039106143
+              ],
+              [
+                35.70953502158229,
+                24.162011173184354
+              ],
+              [
+                34.38695965041257,
+                52.5139664804469
+              ],
+              [
+                32.204494278345855,
+                68.17903930593698
+              ],
+              [
+                27.96396815540396,
+                79.57787525968736
+              ],
+              [
+                21.157443164513104,
+                74.48059176662075
+              ],
+              [
+                15.611125771458564,
+                73.71320130636651
+              ],
+              [
+                17.008049439846413,
+                88.69470141520009
+              ],
+              [
+                26.09391680156095,
+                86.29045635492862
+              ],
+              [
+                50.10226700195859,
+                84.63687150837987
+              ]
+            ],
+            "closed": true,
+            "polygonlabels": [
+              "管辖区"
+            ]
+          },
+          "id": "FzGO4CPuGi",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "polygonlabels",
+          "origin": "manual"
+        }
+      ],
+      "created_username": " 2249997631@qq.com, 1",
+      "created_ago": "1 week, 2 days",
+      "completed_by": {
+        "id": 1,
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "2249997631@qq.com",
+        "initials": "22"
+      },
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2025-11-29T16:29:17.869164Z",
+      "updated_at": "2025-12-09T09:24:45.932496Z",
+      "draft_created_at": "2025-11-29T16:28:03.075072Z",
+      "lead_time": 238.476,
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 41,
+      "project": 44,
+      "updated_by": 1,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}

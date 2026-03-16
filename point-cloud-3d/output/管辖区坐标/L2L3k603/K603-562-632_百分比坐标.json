@@ -1,0 +1,77 @@
+{
+  "id": 54,
+  "data": {
+    "image": "/data/upload/51/9960d088-202601131654_022_K603-562-632.png"
+  },
+  "annotations": [
+    {
+      "id": 51,
+      "result": [
+        {
+          "original_width": 3379,
+          "original_height": 2942,
+          "image_rotation": 0,
+          "value": {
+            "points": [
+              [
+                55.2896933185282,
+                78.38357499854455
+              ],
+              [
+                31.498325411395633,
+                64.14368184733804
+              ],
+              [
+                35.19351977302906,
+                42.839481450615615
+              ],
+              [
+                46.40972438937032,
+                27.325087876668547
+              ],
+              [
+                70.08936064535672,
+                41.62925514412577
+              ]
+            ],
+            "closed": true,
+            "polygonlabels": [
+              "管辖区"
+            ]
+          },
+          "id": "ep-H5rC5fu",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "polygonlabels",
+          "origin": "manual"
+        }
+      ],
+      "created_username": " 2249997631@qq.com, 1",
+      "created_ago": "0 minutes",
+      "completed_by": {
+        "id": 1,
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "2249997631@qq.com",
+        "initials": "22"
+      },
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2026-01-20T03:37:43.233452Z",
+      "updated_at": "2026-01-20T03:37:43.233471Z",
+      "draft_created_at": "2026-01-20T03:36:13.501970Z",
+      "lead_time": 102.626,
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 54,
+      "project": 51,
+      "updated_by": 1,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}

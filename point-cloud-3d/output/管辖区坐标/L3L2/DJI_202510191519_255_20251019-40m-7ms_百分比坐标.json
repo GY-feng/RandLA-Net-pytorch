@@ -1,0 +1,89 @@
+{
+  "id": 50,
+  "data": {
+    "image": "/data/upload/49/6ef034a3-DJI_202510191519_255_20251019-40m-7ms.png"
+  },
+  "annotations": [
+    {
+      "id": 47,
+      "result": [
+        {
+          "original_width": 1667,
+          "original_height": 1796,
+          "image_rotation": 0,
+          "value": {
+            "points": [
+              [
+                60.92975579641353,
+                27.9126213592233
+              ],
+              [
+                34.256643816867694,
+                37.13592233009709
+              ],
+              [
+                26.15010978386847,
+                43.12297734627832
+              ],
+              [
+                29.1137888927069,
+                59.62783171521034
+              ],
+              [
+                43.84501740428613,
+                72.41100323624595
+              ],
+              [
+                65.89827665534854,
+                82.68608414239482
+              ],
+              [
+                82.63434691702437,
+                66.18122977346277
+              ],
+              [
+                69.64645905770303,
+                46.68284789644013
+              ]
+            ],
+            "closed": true,
+            "polygonlabels": [
+              "guanxiaqu"
+            ]
+          },
+          "id": "Kxt2Sj3Lfz",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "polygonlabels",
+          "origin": "manual"
+        }
+      ],
+      "created_username": " 2249997631@qq.com, 1",
+      "created_ago": "0 minutes",
+      "completed_by": {
+        "id": 1,
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "2249997631@qq.com",
+        "initials": "22"
+      },
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2025-12-09T07:41:05.875379Z",
+      "updated_at": "2025-12-09T07:41:05.875397Z",
+      "draft_created_at": "2025-12-09T07:39:59.972633Z",
+      "lead_time": 85.47,
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 50,
+      "project": 49,
+      "updated_by": 1,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}

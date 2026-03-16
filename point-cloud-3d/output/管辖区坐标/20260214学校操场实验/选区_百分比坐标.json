@@ -1,0 +1,89 @@
+{
+  "id": 56,
+  "data": {
+    "image": "/data/upload/53/a3987875-202602141143_001_%E6%B0%B4%E5%B9%B3%E6%97%A0%E6%A4%8D%E8%A2%AB.png"
+  },
+  "annotations": [
+    {
+      "id": 53,
+      "result": [
+        {
+          "original_width": 3291,
+          "original_height": 1870,
+          "image_rotation": 0,
+          "value": {
+            "points": [
+              [
+                41.265879297634605,
+                21.096012529930398
+              ],
+              [
+                44.90489073110518,
+                22.490114129317313
+              ],
+              [
+                47.57487887078784,
+                24.465629613789403
+              ],
+              [
+                47.97515670885893,
+                28.29492681673782
+              ],
+              [
+                47.855801986109824,
+                32.4311834415348
+              ],
+              [
+                44.36276760308694,
+                33.428426012050075
+              ],
+              [
+                40.89992593433413,
+                31.161942593406458
+              ],
+              [
+                40.188756686803046,
+                26.103073362075158
+              ]
+            ],
+            "closed": true,
+            "polygonlabels": [
+              "管辖区"
+            ]
+          },
+          "id": "wR1lj3pDrL",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "polygonlabels",
+          "origin": "manual"
+        }
+      ],
+      "created_username": " 2249997631@qq.com, 1",
+      "created_ago": "1 day",
+      "completed_by": {
+        "id": 1,
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "2249997631@qq.com",
+        "initials": "22"
+      },
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2026-02-24T08:44:39.132164Z",
+      "updated_at": "2026-02-25T09:08:36.495126Z",
+      "draft_created_at": "2026-02-24T08:44:25.924746Z",
+      "lead_time": 788.5969999999999,
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 56,
+      "project": 53,
+      "updated_by": 1,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}

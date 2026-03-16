@@ -1,0 +1,77 @@
+{
+  "id": 48,
+  "data": {
+    "image": "/data/upload/47/0135c207-DJI_202510281552_189_K603-562-632.png"
+  },
+  "annotations": [
+    {
+      "id": 45,
+      "result": [
+        {
+          "original_width": 1672,
+          "original_height": 1433,
+          "image_rotation": 0,
+          "value": {
+            "points": [
+              [
+                36.449615873045104,
+                23.775437811337444
+              ],
+              [
+                65.5984118253308,
+                34.900308444984645
+              ],
+              [
+                90.25437037235038,
+                35.055865921787706
+              ],
+              [
+                70.74314706904387,
+                77.09497206703911
+              ],
+              [
+                46.802995776643236,
+                57.960893854748605
+              ]
+            ],
+            "closed": true,
+            "polygonlabels": [
+              "管辖区"
+            ]
+          },
+          "id": "MRxoZiSiaV",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "polygonlabels",
+          "origin": "manual"
+        }
+      ],
+      "created_username": " 2249997631@qq.com, 1",
+      "created_ago": "0 minutes",
+      "completed_by": {
+        "id": 1,
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "2249997631@qq.com",
+        "initials": "22"
+      },
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2025-12-01T00:16:24.486983Z",
+      "updated_at": "2025-12-01T00:16:24.486997Z",
+      "draft_created_at": "2025-12-01T00:15:58.469213Z",
+      "lead_time": 49.703,
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 48,
+      "project": 47,
+      "updated_by": 1,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}

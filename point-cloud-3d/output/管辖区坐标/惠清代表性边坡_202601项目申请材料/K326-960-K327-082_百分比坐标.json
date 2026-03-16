@@ -1,0 +1,93 @@
+{
+  "id": 52,
+  "data": {
+    "image": "/data/upload/50/4fdeecf8-202512161200_322_K326-960-K327-082.png"
+  },
+  "annotations": [
+    {
+      "id": 48,
+      "result": [
+        {
+          "original_width": 3916,
+          "original_height": 2440,
+          "image_rotation": 0,
+          "value": {
+            "points": [
+              [
+                16.825137986742362,
+                80.26706231454006
+              ],
+              [
+                25.330152793227512,
+                65.28189910979229
+              ],
+              [
+                35.96142130133395,
+                48.367952522255194
+              ],
+              [
+                37.16321687181555,
+                41.98813056379822
+              ],
+              [
+                36.05386711444792,
+                37.98219584569733
+              ],
+              [
+                38.642349881639056,
+                34.124629080118694
+              ],
+              [
+                45.20600261273085,
+                43.471810089020764
+              ],
+              [
+                50.93764302579693,
+                45.99406528189911
+              ],
+              [
+                73.1246381731495,
+                77.1513353115727
+              ]
+            ],
+            "closed": true,
+            "polygonlabels": [
+              "管辖区"
+            ]
+          },
+          "id": "ScdW-4rQoQ",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "polygonlabels",
+          "origin": "manual"
+        }
+      ],
+      "created_username": " 2249997631@qq.com, 1",
+      "created_ago": "6 minutes",
+      "completed_by": {
+        "id": 1,
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "2249997631@qq.com",
+        "initials": "22"
+      },
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2026-01-16T09:15:50.359913Z",
+      "updated_at": "2026-01-16T09:15:50.359930Z",
+      "draft_created_at": "2026-01-16T09:15:19.970499Z",
+      "lead_time": 42.908,
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 52,
+      "project": 50,
+      "updated_by": 1,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}
