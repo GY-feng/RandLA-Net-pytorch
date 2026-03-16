@@ -15,9 +15,9 @@ label_policy:
   depression: 2
 
 ratio:
-  abnormal_ratio: 0.05       # 异常总比例（点比例）
-  bump_ratio: 0.6            # 凸起占异常比例
-  depression_ratio: 0.4      # 凹陷占异常比例
+  abnormal_ratio: 0.5     # 异常总比例（点比例）
+  bump_ratio: 0.5            # 凸起占异常比例
+  depression_ratio: 0.5      # 凹陷占异常比例
 
 defect:
   radius: [2.0, 4.0]
@@ -38,10 +38,10 @@ logging:
   log_name: run_log.json
 
 scan:
-  root_dir: "D:/path/to/wappe2007@qq.com"
+  root_dir: "D:/CloudPointProcessing/PCGSPRO_1761030020/wappe2007@qq.com"
   target_relpath: "lidars/terra_las/cloud_merged.las"
-  output_json: "D:/path/to/scan_list.json"
+  output_json: "D:/Feng/codes/generate_slope/scan_list.json"
 
 step2:
-  selected_json: "D:/path/to/scan_list.json"
-  output_dir: "D:/path/to/output"
+  selected_json: "D:/Feng/codes/generate_slope/scan_list.json"
+  output_dir: "D:/Feng/ground_points"
