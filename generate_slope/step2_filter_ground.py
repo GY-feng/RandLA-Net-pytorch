@@ -36,7 +36,8 @@ def main():
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(selected_json, "r", encoding="utf-8") as f:
+    # Handle possible BOM from external editors/tools
+    with open(selected_json, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
     items = data.get("items", [])
