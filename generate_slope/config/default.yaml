@@ -1,0 +1,47 @@
+﻿input:
+  mode: single               # single | batch
+  single_file: "D:/path/to/your.las"
+  batch_dir: "D:/path/to/las_dir"
+  recursive: false
+
+output:
+  dir: "D:/path/to/output"
+  suffix: "_sim"
+
+label_policy:
+  reset_all: true
+  background: 0
+  bump: 1
+  depression: 2
+
+ratio:
+  abnormal_ratio: 0.05       # 异常总比例（点比例）
+  bump_ratio: 0.6            # 凸起占异常比例
+  depression_ratio: 0.4      # 凹陷占异常比例
+
+defect:
+  radius: [2.0, 4.0]
+  dz: [0.5, 2.0]
+  smooth_type: gaussian      # linear | quadratic | gaussian | [list]
+  margin_ratio: 0.02
+  overlap_policy: avoid      # avoid | allow
+  max_defects: 500
+  max_attempts: 2000
+
+noise:
+  std: 0.0
+
+seed: 2025
+
+logging:
+  save_log: true
+  log_name: run_log.json
+
+scan:
+  root_dir: "D:/path/to/wappe2007@qq.com"
+  target_relpath: "lidars/terra_las/cloud_merged.las"
+  output_json: "D:/path/to/scan_list.json"
+
+step2:
+  selected_json: "D:/path/to/scan_list.json"
+  output_dir: "D:/path/to/output"
