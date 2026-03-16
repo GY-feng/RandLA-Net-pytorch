@@ -78,7 +78,8 @@ def main():
     for idx, p in enumerate(candidates, start=1):
         print(f"正在处理第 {idx}/{total} 个文件: {p.name}")
         try:
-            name = p.parents[len(target_parent_parts) - 1].name
+            # expected structure: xx/lidars/terra_las/cloud_merged.las
+            name = p.parents[len(target_parent_parts)].name
         except Exception:
             name = p.parent.name
         items.append(

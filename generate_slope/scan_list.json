@@ -19,7 +19,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\018_鎯犳竻婀涙睙K387-810-865鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -33,7 +33,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\026_鎯犳竻娓呰繙鏂瑰悜K351-310-700\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -47,7 +47,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\027_鎯犳竻姹曞ごK348-700-349-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -61,7 +61,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\031_鎯犳竻姹曞ごK348-700-349-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -75,7 +75,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\033_鎯犳竻娓呰繙鏂瑰悜K358-350-560\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -89,7 +89,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\036_鎯犳竻娓呰繙鏂瑰悜K359-680-800\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -103,7 +103,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\037_鎯犳竻姹曞ごK346-850-347-015鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -117,7 +117,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\039_鎯犳竻姹曞ごK346-850-347-015鐐逛簯(1)\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -131,7 +131,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\039_鎯犳竻婀涙睙K343-358-545鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -145,7 +145,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\041_鎯犳竻婀涙睙K343-550-670鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -159,7 +159,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\043_鎯犳竻涓滆K343-639鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -173,7 +173,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\044_鎯犳竻娓呰繙鏂瑰悜K361-300-530\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -187,7 +187,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\045_鎯犳竻姹曞ごK327-059-109鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -201,7 +201,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\047_鎯犳竻婀涙睙K343-358-545鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false,
+      "selected": true,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -222,7 +222,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\048_鎯犳竻楂橀€熸竻杩滄柟鍚慘367-340-450\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -236,7 +236,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\051_鎯犳竻姹曞ごK320-410-510鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -250,7 +250,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\053_鎯犳竻婀涙睙K320-410-520鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -264,7 +264,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\055_鎯犳竻鍗楁槅灞盇K0-810-920鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -278,7 +278,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\057_鎯犳竻娓呰繙鏂瑰悜K376-545-650\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -292,7 +292,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\060_鎯犳竻姹曞ごK309-036-159鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -306,7 +306,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\062_骞夸經鑲囦笂琛孠87-500-660\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -320,7 +320,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\063_鎯犳竻姹曞ごK327-059-109鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -334,7 +334,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\065_骞夸經鑲囦笂琛孠87-704-767\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -348,7 +348,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\066_鎯犳竻姹曞ごK308-441-619鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -362,7 +362,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\068_鎯犳竻婀涙睙K308-270-460鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -376,7 +376,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\070_鎯犳竻姹曞ごK308-220-280鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -390,7 +390,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\072_鎯犳竻婀涙睙K320-410-520鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -404,7 +404,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\076_鎯犳竻婀涙睙K307-600-752鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
@@ -418,7 +418,7 @@
     {
       "name": "lidars",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\080_鎯犳竻婀涙睙K306-320-432鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true,
+      "selected": false,
       "route_id": "lidars",
       "duplicate_of": "lidars"
     },
