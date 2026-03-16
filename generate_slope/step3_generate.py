@@ -55,8 +55,9 @@ def main():
     print(f"Mode: {mode}")
     print(f"Total files: {len(files)}")
 
+    total = len(files)
     for i, fpath in enumerate(files, start=1):
-        print(f"[{i}/{len(files)}] Processing: {fpath.name}")
+        print(f"正在处理第 {i}/{total} 个文件: {fpath.name}")
         item = process_one_las(fpath, out_dir, cfg)
         add_file_report(report, item)
         print(

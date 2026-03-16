@@ -9,13 +9,13 @@
 pip install -r requirements.txt
 ```
 
-## Step1: 扫描父目录生成清单
+## Step1: 扫描 + 去重（默认全选）
 
 ```sh
-python step1_scan.py --config config/default.yaml
+python step1_scan_dedupe.py --config config/default.yaml
 ```
 
-编辑 `scan.output_json`，把需要的条目改为 `"selected": true`。
+编辑 `scan.output_json`，把需要的条目 `selected` 改为 true/false。
 
 ## Step2: 过滤地面点 (class=2)
 

@@ -5,42 +5,42 @@
     {
       "name": "DJI_202411061039_202_K603-562-632",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202411061039_202_K603-562-632\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202507091538_295_云罗K339-296-735点云",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202507091538_295_云罗K339-296-735点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202507101026_307_云梧-K340-955-995-点云",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202507101026_307_云梧-K340-955-995-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202508221426_217_英怀阳江方向-K86-850-点云",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202508221426_217_英怀阳江方向-K86-850-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202508231013_222_英怀怀集方向-K26-000-点云",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202508231013_222_英怀怀集方向-K26-000-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202510101155_155_清云湛江方向-K516-550-650-重复",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_155_清云湛江方向-K516-550-650-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202510101155_155_清云湛江方向-K516-550-650-重复1",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_155_清云湛江方向-K516-550-650-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202510101155_157_清云湛江方向-K516-550-650-非重复",
       "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_157_清云湛江方向-K516-550-650-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": true
+      "selected": false
     },
     {
       "name": "DJI_202510101233_158_清云湛江方向-K516-550-650-3cm-重复",

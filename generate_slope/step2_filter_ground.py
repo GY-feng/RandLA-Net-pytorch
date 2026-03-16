@@ -41,9 +41,11 @@ def main():
 
     log = {"selected_count": len(selected_items), "items": []}
 
-    for it in selected_items:
+    total = len(selected_items)
+    for idx, it in enumerate(selected_items, start=1):
         name = it.get("name")
         las_path = Path(it.get("las_path", ""))
+        print(f"正在处理第 {idx}/{total} 个文件: {name}")
         if not las_path.exists():
             log["items"].append({"name": name, "status": "missing", "las_path": str(las_path)})
             continue

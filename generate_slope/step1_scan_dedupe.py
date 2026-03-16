@@ -19,8 +19,16 @@ def _score_name(name: str, prefer_non_repeat: bool, prefer_no_suffix_digit: bool
     return score
 
 
+def _endswith_parts(path: Path, tail_parts) -> bool:
+    parts = [p.lower() for p in path.parts]
+    tail = [p.lower() for p in tail_parts]
+    if len(parts) < len(tail):
+        return False
+    return parts[-len(tail):] == tail
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Step2: dedupe by route id.")
+    parser = argparse.ArgumentParser(description="Step1: scan and dedupe by route id.")
     parser.add_argument("--config", default=str(Path(__file__).parent / "config" / "default.yaml"))
     args = parser.parse_args()
 
@@ -34,20 +42,42 @@ def main():
     scan_cfg = cfg.get("scan", {})
     dedupe_cfg = cfg.get("dedupe", {})
 
-    input_json = Path(dedupe_cfg.get("input_json", scan_cfg.get("output_json", "scan_list.json")))
-    output_json = Path(dedupe_cfg.get("output_json", "scan_list_dedup.json"))
+    root_dir = Path(scan_cfg.get("root_dir", ""))
+    target_rel = scan_cfg.get("target_relpath", "lidars/terra_las/cloud_merged.las")
+    out_json = Path(scan_cfg.get("output_json", "scan_list.json"))
+    recursive = bool(scan_cfg.get("recursive", True))
+
     route_regex = dedupe_cfg.get("route_regex", r"K\d{1,4}-\d{1,4}-\d{1,4}")
     prefer_non_repeat = bool(dedupe_cfg.get("prefer_non_repeat", True))
     prefer_no_suffix_digit = bool(dedupe_cfg.get("prefer_no_suffix_digit", True))
 
-    if not input_json.exists():
-        raise FileNotFoundError(f"Input json not found: {input_json}")
+    if not root_dir.exists():
+        raise FileNotFoundError(f"Scan root not found: {root_dir}")
 
-    with open(input_json, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    target_parts = Path(target_rel).parts
 
-    items = data.get("items", [])
+    items = []
+    if recursive:
+        candidates = root_dir.rglob("*.las")
+    else:
+        candidates = root_dir.glob("*.las")
 
+    for p in candidates:
+        if _endswith_parts(p, target_parts):
+            # expected structure: xx/lidars/terra_las/cloud_merged.las
+            try:
+                name = p.parents[len(target_parts) - 1].name
+            except Exception:
+                name = p.parent.name
+            items.append(
+                {
+                    "name": name,
+                    "las_path": str(p),
+                    "selected": True,
+                }
+            )
+
+    # dedupe by route id
     grouped = {}
     for it in items:
         name = it.get("name", "")
@@ -63,7 +93,6 @@ def main():
             kept += 1
             continue
 
-        # choose best item by score then shortest name
         scored = []
         for it in group:
             name = it.get("name", "")
@@ -81,10 +110,9 @@ def main():
                 it["duplicate_of"] = best.get("name")
         kept += 1
 
-    output_json.parent.mkdir(parents=True, exist_ok=True)
-    out = {
-        "input_json": str(input_json),
-        "route_regex": route_regex,
+    payload = {
+        "root_dir": str(root_dir),
+        "target_relpath": target_rel,
         "items": items,
         "summary": {
             "total": len(items),
@@ -93,12 +121,13 @@ def main():
         },
     }
 
-    with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+    out_json.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_json, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Total items: {len(items)}")
+    print(f"Found {len(items)} LAS files.")
     print(f"Unique routes: {len(grouped)}")
-    print(f"Output saved: {output_json}")
+    print(f"List saved to: {out_json}")
 
 
 if __name__ == "__main__":

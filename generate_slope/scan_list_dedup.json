@@ -1,0 +1,1901 @@
+{
+  "input_json": "D:\\Feng\\codes\\generate_slope\\scan_list.json",
+  "route_regex": "K\\d{1,4}-\\d{1,4}-\\d{1,4}",
+  "items": [
+    {
+      "name": "DJI_202411061039_202_K603-562-632",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202411061039_202_K603-562-632\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202507091538_295_云罗K339-296-735点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202507091538_295_云罗K339-296-735点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K339-296-735",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202507101026_307_云梧-K340-955-995-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202507101026_307_云梧-K340-955-995-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K340-955-995",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202508221426_217_英怀阳江方向-K86-850-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202508221426_217_英怀阳江方向-K86-850-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202508221426_217_英怀阳江方向-K86-850-点云"
+    },
+    {
+      "name": "DJI_202508231013_222_英怀怀集方向-K26-000-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202508231013_222_英怀怀集方向-K26-000-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202508231013_222_英怀怀集方向-K26-000-点云"
+    },
+    {
+      "name": "DJI_202510101155_155_清云湛江方向-K516-550-650-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_155_清云湛江方向-K516-550-650-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101155_155_清云湛江方向-K516-550-650-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_155_清云湛江方向-K516-550-650-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101155_157_清云湛江方向-K516-550-650-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_157_清云湛江方向-K516-550-650-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101233_158_清云湛江方向-K516-550-650-3cm-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101233_158_清云湛江方向-K516-550-650-3cm-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101233_159_清云湛江方向-K516-550-650-3cm-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101233_159_清云湛江方向-K516-550-650-3cm-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101259_161_清云湛江方向-K516-550-650-6cm-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101259_161_清云湛江方向-K516-550-650-6cm-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101259_162_清云湛江方向-K516-550-650-6cm-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101259_162_清云湛江方向-K516-550-650-6cm-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101705_169_清云湛江方向-K603-562-632-点云-除草-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101705_169_清云湛江方向-K603-562-632-点云-除草-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101705_170_清云湛江方向-K603-562-632-点云-除草-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101705_170_清云湛江方向-K603-562-632-点云-除草-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101728_171_清云湛江方向-K603-562-632-点云-除草除完-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101728_171_清云湛江方向-K603-562-632-点云-除草除完-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510101728_172_清云湛江方向-K603-562-632-点云-除草除完-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101728_172_清云湛江方向-K603-562-632-点云-除草除完-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510140938_173_清云湛江方向-K491-840-980-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510140938_173_清云湛江方向-K491-840-980-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K491-840-980"
+    },
+    {
+      "name": "DJI_202510141004_176_清云湛江方向-K492-818-K493-015-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141004_176_清云湛江方向-K492-818-K493-015-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510141004_176_清云湛江方向-K492-818-K493-015-点云"
+    },
+    {
+      "name": "DJI_202510141004_179_清云湛江方向-K493-160-275-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141004_179_清云湛江方向-K493-160-275-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K493-160-275"
+    },
+    {
+      "name": "DJI_202510141129_184_清云湛江方向-K514-700-860-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141129_184_清云湛江方向-K514-700-860-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K514-700-860",
+      "duplicate_of": "DJI_202510141129_185_清云湛江方向-K514-700-860-点云"
+    },
+    {
+      "name": "DJI_202510141129_185_清云湛江方向-K514-700-860-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141129_185_清云湛江方向-K514-700-860-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K514-700-860",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202510141554_186_清云汕头方向-K520-200-300-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141554_186_清云汕头方向-K520-200-300-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K520-200-300",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202510141554_187_清云汕头方向-K520-200-300-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141554_187_清云汕头方向-K520-200-300-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K520-200-300",
+      "duplicate_of": "DJI_202510141554_186_清云汕头方向-K520-200-300-点云"
+    },
+    {
+      "name": "DJI_202510141618_188_清云湛江方向-K516-550-650",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141618_188_清云湛江方向-K516-550-650\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510141618_190_清云湛江方向-K516-550-650-3cm-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141618_190_清云湛江方向-K516-550-650-3cm-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141634_191_清云湛江方向-K516-540-740-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K516-540-740",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202510141634_194_清云湛江方向-K516-260-440-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141634_194_清云湛江方向-K516-260-440-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K516-260-440"
+    },
+    {
+      "name": "DJI_202510141717_197_清云湛江方向-K516-050-155-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141717_197_清云湛江方向-K516-050-155-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K516-050-155"
+    },
+    {
+      "name": "DJI_202510141754_200_清云湛江方向-K493-570-875-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141754_200_清云湛江方向-K493-570-875-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K493-570-875",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202510150923_203_清云湛江方向-K603-132-272-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150923_203_清云湛江方向-K603-132-272-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K603-132-272"
+    },
+    {
+      "name": "DJI_202510150923_205_清云湛江方向-K603-312-392-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150923_205_清云湛江方向-K603-312-392-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K603-312-392"
+    },
+    {
+      "name": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150948_207_清云湛江方向-K603-562-632-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K603-562-632",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202510150948_209_清云湛江方向-K603-772-862-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150948_209_清云湛江方向-K603-772-862-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K603-772-862"
+    },
+    {
+      "name": "DJI_202510151015_211_清云湛江方向-K603-982-K604-038-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151015_211_清云湛江方向-K603-982-K604-038-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510151015_211_清云湛江方向-K603-982-K604-038-点云"
+    },
+    {
+      "name": "DJI_202510151025_213_清云湛江方向-K604-452-542-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151025_213_清云湛江方向-K604-452-542-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K604-452-542"
+    },
+    {
+      "name": "DJI_202510151039_215_清云湛江方向-K604-817-882-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151039_215_清云湛江方向-K604-817-882-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K604-817-882"
+    },
+    {
+      "name": "DJI_202510151052_217_清云湛江方向-K605-852-992-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151052_217_清云湛江方向-K605-852-992-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K605-852-992"
+    },
+    {
+      "name": "DJI_202510151332_219_清云汕头方向-K531-880-980-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151332_219_清云汕头方向-K531-880-980-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K531-880-980",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202510151332_220_清云汕头方向-K531-880-980-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151332_220_清云汕头方向-K531-880-980-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K531-880-980",
+      "duplicate_of": "DJI_202510151332_219_清云汕头方向-K531-880-980-点云"
+    },
+    {
+      "name": "DJI_202510151441_223_清云汕头方向-K493-570-875-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151441_223_清云汕头方向-K493-570-875-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K493-570-875",
+      "duplicate_of": "DJI_202510141754_200_清云湛江方向-K493-570-875-点云"
+    },
+    {
+      "name": "DJI_202510160911_227_英怀阳江方向-K86-850-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510160911_227_英怀阳江方向-K86-850-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510160911_227_英怀阳江方向-K86-850-点云"
+    },
+    {
+      "name": "DJI_202510161051_229_英怀怀集方向-K25-730-K26-100-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161051_229_英怀怀集方向-K25-730-K26-100-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510161051_229_英怀怀集方向-K25-730-K26-100-点云"
+    },
+    {
+      "name": "DJI_202510161541_239_241_清云湛江方向-K603-562-632-点云01",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_239_241_清云湛江方向-K603-562-632-点云01\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_244_245_清云湛江方向-K603-562-632-点云02",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_244_245_清云湛江方向-K603-562-632-点云02\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_246_247_清云湛江方向-K603-562-632-点云03",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_247_清云湛江方向-K603-562-632-点云03\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复3",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复3\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复4",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复4\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510161713_240_禾联岗互通-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161713_240_禾联岗互通-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510161713_240_禾联岗互通-点云"
+    },
+    {
+      "name": "DJI_202510191519_249_普通用户验证",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_普通用户验证\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_249_普通用户验证"
+    },
+    {
+      "name": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_点云实验20251019-40m-3ms-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复"
+    },
+    {
+      "name": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_点云实验20251019-40m-3ms-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复1"
+    },
+    {
+      "name": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_点云实验20251019-40m-3ms-重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复2"
+    },
+    {
+      "name": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_250_点云实验20251019-40m-3ms-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复"
+    },
+    {
+      "name": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_250_点云实验20251019-40m-3ms-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复1"
+    },
+    {
+      "name": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_250_点云实验20251019-40m-3ms-重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复2"
+    },
+    {
+      "name": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_251_点云实验20251019-40m-3ms-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复"
+    },
+    {
+      "name": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_251_点云实验20251019-40m-3ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复1"
+    },
+    {
+      "name": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_251_点云实验20251019-40m-3ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复2"
+    },
+    {
+      "name": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_252_点云实验20251019-40m-3ms-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复"
+    },
+    {
+      "name": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_252_点云实验20251019-40m-3ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复1"
+    },
+    {
+      "name": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_252_点云实验20251019-40m-3ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复2"
+    },
+    {
+      "name": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_253_点云实验20251019-40m-7ms-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复"
+    },
+    {
+      "name": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_253_点云实验20251019-40m-7ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复1"
+    },
+    {
+      "name": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_253_点云实验20251019-40m-7ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复2"
+    },
+    {
+      "name": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_254_点云实验20251019-40m-7ms-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复"
+    },
+    {
+      "name": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_254_点云实验20251019-40m-7ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复1"
+    },
+    {
+      "name": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_254_点云实验20251019-40m-7ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复2"
+    },
+    {
+      "name": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_255_点云实验20251019-40m-7ms-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复"
+    },
+    {
+      "name": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_255_点云实验20251019-40m-7ms-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复1"
+    },
+    {
+      "name": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_255_点云实验20251019-40m-7ms-重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复2"
+    },
+    {
+      "name": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_256_点云实验20251019-40m-7ms-重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复"
+    },
+    {
+      "name": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_256_点云实验20251019-40m-7ms-重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复1"
+    },
+    {
+      "name": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_256_点云实验20251019-40m-7ms-重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复2"
+    },
+    {
+      "name": "DJI_202510200903_243_云梧广州方向-k130-450-505-路肩点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510200903_243_云梧广州方向-k130-450-505-路肩点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510200903_243_云梧广州方向-k130-450-505-路肩点云"
+    },
+    {
+      "name": "DJI_202510200943_248_云梧广州方向-K136-274-404-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510200943_248_云梧广州方向-K136-274-404-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K136-274-404"
+    },
+    {
+      "name": "DJI_202510201011_250_云梧梧州方向-K150-478-654-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201011_250_云梧梧州方向-K150-478-654-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K150-478-654"
+    },
+    {
+      "name": "DJI_202510201041_252_云梧广州方向-K163-270-610-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201041_252_云梧广州方向-K163-270-610-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K163-270-610"
+    },
+    {
+      "name": "DJI_202510201041_254_云梧广州方向-K163-750-860-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201041_254_云梧广州方向-K163-750-860-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K163-750-860"
+    },
+    {
+      "name": "DJI_202510201041_256_云梧梧州方向-K163-745-K164-0045-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201041_256_云梧梧州方向-K163-745-K164-0045-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510201041_256_云梧梧州方向-K163-745-K164-0045-点云"
+    },
+    {
+      "name": "DJI_202510201453_260_云梧梧州方向-K187-960-K188-180-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201453_260_云梧梧州方向-K187-960-K188-180-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510201453_260_云梧梧州方向-K187-960-K188-180-点云"
+    },
+    {
+      "name": "DJI_202510201521_263_云梧广州方向-K181-995-K182-125-路肩墙点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201521_263_云梧广州方向-K181-995-K182-125-路肩墙点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510201521_263_云梧广州方向-K181-995-K182-125-路肩墙点云"
+    },
+    {
+      "name": "DJI_202510201537_265_云梧梧州方向-K180-217-357-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201537_265_云梧梧州方向-K180-217-357-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K180-217-357"
+    },
+    {
+      "name": "DJI_202510201553_267_云梧梧州方向-178-027-122-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201553_267_云梧梧州方向-178-027-122-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510201553_267_云梧梧州方向-178-027-122-点云"
+    },
+    {
+      "name": "DJI_202510201612_270_云梧梧州方向-K169-545-K170-645-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201612_270_云梧梧州方向-K169-545-K170-645-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510201612_270_云梧梧州方向-K169-545-K170-645-点云"
+    },
+    {
+      "name": "DJI_202510201654_272_云梧梧州方向-K164-527-612-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201654_272_云梧梧州方向-K164-527-612-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K164-527-612"
+    },
+    {
+      "name": "DJI_202510201654_274_云梧梧州方向-K164-090-237点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201654_274_云梧梧州方向-K164-090-237点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K164-090-237"
+    },
+    {
+      "name": "DJI_202510201747_276_云梧广州方向-K136-510-550-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201747_276_云梧广州方向-K136-510-550-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K136-510-550"
+    },
+    {
+      "name": "DJI_202510210931_281_双凤枢纽立交广州方向-K122-491-747-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510210931_281_双凤枢纽立交广州方向-K122-491-747-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K122-491-747"
+    },
+    {
+      "name": "DJI_202510211112_288_云梧广西方向-K98-892-K99-137-路堤墙点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211112_288_云梧广西方向-K98-892-K99-137-路堤墙点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510211112_288_云梧广西方向-K98-892-K99-137-路堤墙点云"
+    },
+    {
+      "name": "DJI_202510211138_290_云梧广州方向-K98-100-255-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211138_290_云梧广州方向-K98-100-255-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K98-100-255"
+    },
+    {
+      "name": "DJI_202510211429_293_云梧梧州方向-K96-430-730-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211429_293_云梧梧州方向-K96-430-730-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K96-430-730"
+    },
+    {
+      "name": "DJI_202510211456_297_云梧广州方向-K98-050-490-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211456_297_云梧广州方向-K98-050-490-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K98-050-490"
+    },
+    {
+      "name": "DJI_202510211548_300_云梧梧州方向-K113-510-828-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211548_300_云梧梧州方向-K113-510-828-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K113-510-828"
+    },
+    {
+      "name": "DJI_202510211625_303_肇阳广西方向-K31-790-940-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211625_303_肇阳广西方向-K31-790-940-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K31-790-940"
+    },
+    {
+      "name": "DJI_202510211647_307_肇阳广州方向-K34-280-340-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211647_307_肇阳广州方向-K34-280-340-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K34-280-340"
+    },
+    {
+      "name": "DJI_202510211701_309_肇阳广西方向-K37-558-K38-000-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211701_309_肇阳广西方向-K37-558-K38-000-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510211701_309_肇阳广西方向-K37-558-K38-000-点云"
+    },
+    {
+      "name": "DJI_202510211733_311_肇阳广西方向-K39-610-680-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211733_311_肇阳广西方向-K39-610-680-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K39-610-680"
+    },
+    {
+      "name": "DJI_202510220905_314_肇阳广州方向-K44-930-980-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510220905_314_肇阳广州方向-K44-930-980-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K44-930-980"
+    },
+    {
+      "name": "DJI_202510220946_317_云罗广西方向-K317-876-k318-006-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510220946_317_云罗广西方向-K317-876-k318-006-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510220946_317_云罗广西方向-K317-876-k318-006-点云"
+    },
+    {
+      "name": "DJI_202510221002_319_云罗罗定方向-K322-121-236-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221002_319_云罗罗定方向-K322-121-236-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K322-121-236"
+    },
+    {
+      "name": "DJI_202510221022_321_云梧罗定方向-K323-916-324-100-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221022_321_云梧罗定方向-K323-916-324-100-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K323-916-324"
+    },
+    {
+      "name": "DJI_202510221036_323_云罗罗定方向-K324-426-626-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221036_323_云罗罗定方向-K324-426-626-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K324-426-626"
+    },
+    {
+      "name": "DJI_202510221057_325_云罗罗定方向-K327-745-945-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221057_325_云罗罗定方向-K327-745-945-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K327-745-945"
+    },
+    {
+      "name": "DJI_202510221112_327_云罗罗定方向-K328-676-846-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221112_327_云罗罗定方向-K328-676-846-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K328-676-846"
+    },
+    {
+      "name": "DJI_202510221112_329_云罗罗定方向-K329-026-166-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221112_329_云罗罗定方向-K329-026-166-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K329-026-166"
+    },
+    {
+      "name": "DJI_202510221441_332_云罗广西方向-K345-610-800-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221441_332_云罗广西方向-K345-610-800-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K345-610-800"
+    },
+    {
+      "name": "DJI_202510221458_334_云罗广西方向-K344-196-356-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221458_334_云罗广西方向-K344-196-356-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K344-196-356"
+    },
+    {
+      "name": "DJI_202510221458_336_云罗广西方向-K343-976-K344-066-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221458_336_云罗广西方向-K343-976-K344-066-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510221458_336_云罗广西方向-K343-976-K344-066-点云"
+    },
+    {
+      "name": "DJI_202510221522_338_云罗罗定方向-K342-376-516-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221522_338_云罗罗定方向-K342-376-516-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K342-376-516"
+    },
+    {
+      "name": "DJI_202510221522_340_云罗罗定方向-K342-216-316-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221522_340_云罗罗定方向-K342-216-316-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K342-216-316"
+    },
+    {
+      "name": "DJI_202510230901_342_肇阳广西方向-K42-670-K43-000-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510230901_342_肇阳广西方向-K42-670-K43-000-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510230901_342_肇阳广西方向-K42-670-K43-000-点云"
+    },
+    {
+      "name": "DJI_202510230938_347_肇阳广西方向-K46-760-K47-050-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510230938_347_肇阳广西方向-K46-760-K47-050-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510230938_347_肇阳广西方向-K46-760-K47-050-点云"
+    },
+    {
+      "name": "DJI_202510231007_350_肇阳广西方向-K47-320-490-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231007_350_肇阳广西方向-K47-320-490-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K47-320-490"
+    },
+    {
+      "name": "DJI_202510231047_353_云罗广西方向-K329-350-550-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231047_353_云罗广西方向-K329-350-550-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K329-350-550"
+    },
+    {
+      "name": "DJI_202510231109_355_云罗罗定方向-K329-882-912-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231109_355_云罗罗定方向-K329-882-912-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K329-882-912"
+    },
+    {
+      "name": "DJI_202510231109_357_云罗罗定方向-K330-206-316-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231109_357_云罗罗定方向-K330-206-316-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K330-206-316"
+    },
+    {
+      "name": "DJI_202510231109_359_云罗罗定方向-K330-075-225-路堤墙点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231109_359_云罗罗定方向-K330-075-225-路堤墙点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K330-075-225"
+    },
+    {
+      "name": "DJI_202510231349_362_云罗广西方向-K338-340-680-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231349_362_云罗广西方向-K338-340-680-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K338-340-680"
+    },
+    {
+      "name": "DJI_202510231407_364_云罗罗定方向-K339-296-735-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231407_364_云罗罗定方向-K339-296-735-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K339-296-735",
+      "duplicate_of": "DJI_202507091538_295_云罗K339-296-735点云"
+    },
+    {
+      "name": "DJI_202510231407_366_云罗广西方向-K339-655-900-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231407_366_云罗广西方向-K339-655-900-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K339-655-900"
+    },
+    {
+      "name": "DJI_202510231452_369_云罗罗定方向-K340-275-415-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231452_369_云罗罗定方向-K340-275-415-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K340-275-415"
+    },
+    {
+      "name": "DJI_202510231452_371_云罗广西方向-K340-416-710-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231452_371_云罗广西方向-K340-416-710-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K340-416-710"
+    },
+    {
+      "name": "DJI_202510231452_373_云罗罗定方向-K340-576-768-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231452_373_云罗罗定方向-K340-576-768-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K340-576-768"
+    },
+    {
+      "name": "DJI_202510231533_376_云罗罗定方向-K340-955-995-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231533_376_云罗罗定方向-K340-955-995-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K340-955-995",
+      "duplicate_of": "DJI_202507101026_307_云梧-K340-955-995-点云"
+    },
+    {
+      "name": "DJI_202510231616_378_云罗罗定方向-K332-950-333-250-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231616_378_云罗罗定方向-K332-950-333-250-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K332-950-333"
+    },
+    {
+      "name": "DJI_202510241018_382_云梧建城互通-EK0-012-150-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241018_382_云梧建城互通-EK0-012-150-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K0-012-150"
+    },
+    {
+      "name": "DJI_202510241113_387_肇阳广西方向-宋桂互通DK0-045-383-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241113_387_肇阳广西方向-宋桂互通DK0-045-383-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K0-045-383"
+    },
+    {
+      "name": "DJI_202510241225_395_云罗附城互通-DK0-060-240-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241225_395_云罗附城互通-DK0-060-240-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K0-060-240"
+    },
+    {
+      "name": "DJI_202510241321_398_云梧高村互通-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241321_398_云梧高村互通-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202510241321_398_云梧高村互通-点云"
+    },
+    {
+      "name": "DJI_202510281419_176_清云湛江方向-K603-562-632-点云-实验",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_176_清云湛江方向-K603-562-632-点云-实验\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281419_177_清云湛江方向-K603-562-632-点云-实验-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_177_清云湛江方向-K603-562-632-点云-实验-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281419_178_清云湛江方向-K603-562-632-点云-实验-7米",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_178_清云湛江方向-K603-562-632-点云-实验-7米\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281419_181_清云湛江方向-K603-562-632-点云-实验-非重复-7米",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_181_清云湛江方向-K603-562-632-点云-实验-非重复-7米\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281516_182_清云湛江方向-K603-562-632-点云-实验-填土",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_182_清云湛江方向-K603-562-632-点云-实验-填土\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281516_183_清云湛江方向-K603-562-632-点云-实验-非重复-填土",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_183_清云湛江方向-K603-562-632-点云-实验-非重复-填土\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281516_184_清云湛江方向-K603-562-632-点云-实验-7米填土",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_184_清云湛江方向-K603-562-632-点云-实验-7米填土\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281516_185_清云湛江方向-K603-562-632-点云-实验-非重复-7米填土",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_185_清云湛江方向-K603-562-632-点云-实验-非重复-7米填土\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281552_186_清云湛江方向-K603-562-632-点云-实验-洒水",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_186_清云湛江方向-K603-562-632-点云-实验-洒水\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281552_187_清云湛江方向-K603-562-632-点云-实验-非重复-洒水",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_187_清云湛江方向-K603-562-632-点云-实验-非重复-洒水\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281552_188_清云湛江方向-K603-562-632-点云-实验-7米洒水",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_188_清云湛江方向-K603-562-632-点云-实验-7米洒水\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202510281552_189_清云湛江方向-K603-562-632-点云-实验-非重复-7米洒水",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_189_清云湛江方向-K603-562-632-点云-实验-非重复-7米洒水\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202511061517_190_清云湛江方向-K514-700-860-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061517_190_清云湛江方向-K514-700-860-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K514-700-860",
+      "duplicate_of": "DJI_202510141129_185_清云湛江方向-K514-700-860-点云"
+    },
+    {
+      "name": "DJI_202511061517_191_清云湛江方向-K514-700-860-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061517_191_清云湛江方向-K514-700-860-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K514-700-860",
+      "duplicate_of": "DJI_202510141129_185_清云湛江方向-K514-700-860-点云"
+    },
+    {
+      "name": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061547_192_清云湛江方向-K516-550-650-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K516-550-650",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202511061547_193_清云湛江方向-K516-550-650-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061547_193_清云湛江方向-K516-550-650-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-550-650",
+      "duplicate_of": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云"
+    },
+    {
+      "name": "DJI_202511061604_194_清云汕头方向-K520-200-300-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061604_194_清云汕头方向-K520-200-300-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K520-200-300",
+      "duplicate_of": "DJI_202510141554_186_清云汕头方向-K520-200-300-点云"
+    },
+    {
+      "name": "DJI_202511061604_195_清云汕头方向-K520-200-300-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061604_195_清云汕头方向-K520-200-300-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K520-200-300",
+      "duplicate_of": "DJI_202510141554_186_清云汕头方向-K520-200-300-点云"
+    },
+    {
+      "name": "DJI_202511061630_196_清云汕头方向-K531-880-980-点云-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061630_196_清云汕头方向-K531-880-980-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K531-880-980",
+      "duplicate_of": "DJI_202510151332_219_清云汕头方向-K531-880-980-点云"
+    },
+    {
+      "name": "DJI_202511061630_197_清云汕头方向-K531-880-980-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061630_197_清云汕头方向-K531-880-980-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K531-880-980",
+      "duplicate_of": "DJI_202510151332_219_清云汕头方向-K531-880-980-点云"
+    },
+    {
+      "name": "DJI_202511131641_198_实验20251113清云湛江方向-K516-540-740-重复01",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_198_实验20251113清云湛江方向-K516-540-740-重复01\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_199_实验20251113清云湛江方向-K516-540-740-重复01",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_199_实验20251113清云湛江方向-K516-540-740-重复01\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_200_实验20251113清云湛江方向-K516-540-740-非重复01",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_200_实验20251113清云湛江方向-K516-540-740-非重复01\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_201_实验20251113清云湛江方向-K516-540-740-非重复01",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_201_实验20251113清云湛江方向-K516-540-740-非重复01\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_202_实验20251113清云湛江方向-K516-540-740-重复02",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_202_实验20251113清云湛江方向-K516-540-740-重复02\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_203_实验20251113清云湛江方向-K516-540-740-非重复02",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_203_实验20251113清云湛江方向-K516-540-740-非重复02\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_204_实验20251113清云湛江方向-K516-540-740-重复02",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_204_实验20251113清云湛江方向-K516-540-740-重复02\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202511131641_205_实验20251113清云湛江方向-K516-540-740-非重复02",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_205_实验20251113清云湛江方向-K516-540-740-非重复02\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K516-540-740",
+      "duplicate_of": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云"
+    },
+    {
+      "name": "DJI_202512011038_206_惠清南昆山-AK0-810-920-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011038_206_惠清南昆山-AK0-810-920-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K0-810-920"
+    },
+    {
+      "name": "DJI_202512011127_209_惠清湛江方向-K307-600-752-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011127_209_惠清湛江方向-K307-600-752-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K307-600-752"
+    },
+    {
+      "name": "DJI_202512011148_211_惠清湛江方向-K306-790-K307-052-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011148_211_惠清湛江方向-K306-790-K307-052-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512011148_211_惠清湛江方向-K306-790-K307-052-点云"
+    },
+    {
+      "name": "DJI_202512011148_213_惠清湛江-K306-320-432-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011148_213_惠清湛江-K306-320-432-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K306-320-432"
+    },
+    {
+      "name": "DJI_202512011232_215_惠清打鼓岭-AK1-175-450-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011232_215_惠清打鼓岭-AK1-175-450-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K1-175-450"
+    },
+    {
+      "name": "DJI_202512011522_221_惠清湛江方向-K308-270-460-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011522_221_惠清湛江方向-K308-270-460-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K308-270-460"
+    },
+    {
+      "name": "DJI_202512011522_223_惠清汕头方向-K308-441-619-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011522_223_惠清汕头方向-K308-441-619-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K308-441-619"
+    },
+    {
+      "name": "DJI_202512011611_225_惠清湛江方向-K308-804-K309-012-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011611_225_惠清湛江方向-K308-804-K309-012-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512011611_225_惠清湛江方向-K308-804-K309-012-点云"
+    },
+    {
+      "name": "DJI_202512011611_231_惠清汕头方向-K309-036-159-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011611_231_惠清汕头方向-K309-036-159-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K309-036-159",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202512011700_234_惠清汕头方向-K318-820-K319-020-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011700_234_惠清汕头方向-K318-820-K319-020-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512011700_234_惠清汕头方向-K318-820-K319-020-点云"
+    },
+    {
+      "name": "DJI_202512020924_237_惠清石岭隧道清远端口-K347-950-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512020924_237_惠清石岭隧道清远端口-K347-950-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512020924_237_惠清石岭隧道清远端口-K347-950-点云"
+    },
+    {
+      "name": "DJI_202512020956_240_惠清石岭隧道惠州端口-K347-562-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512020956_240_惠清石岭隧道惠州端口-K347-562-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512020956_240_惠清石岭隧道惠州端口-K347-562-点云"
+    },
+    {
+      "name": "DJI_202512020956_243_惠清湛江方向-K347-437-552-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512020956_243_惠清湛江方向-K347-437-552-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K347-437-552"
+    },
+    {
+      "name": "DJI_202512021032_246_惠清汕头方向-K346-850-K347-015-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021032_246_惠清汕头方向-K346-850-K347-015-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021032_246_惠清汕头方向-K346-850-K347-015-点云"
+    },
+    {
+      "name": "DJI_202512021058_249_惠清湛江方向-K343-550-670-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021058_249_惠清湛江方向-K343-550-670-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K343-550-670"
+    },
+    {
+      "name": "DJI_202512021058_252_惠清湛江方向-K343-358-545-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021058_252_惠清湛江方向-K343-358-545-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K343-358-545",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202512021156_255_惠清湛江方向-K304-036-144-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021156_255_惠清湛江方向-K304-036-144-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K304-036-144"
+    },
+    {
+      "name": "DJI_202512021404_258_惠清汕头方向-K359-680-800-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021404_258_惠清汕头方向-K359-680-800-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K359-680-800",
+      "duplicate_of": null
+    },
+    {
+      "name": "DJI_202512021421_261_惠清惠州方向-K361-300-530-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021421_261_惠清惠州方向-K361-300-530-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K361-300-530"
+    },
+    {
+      "name": "DJI_202512021517_007_40m十六回波6ms一字",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021517_007_40m十六回波6ms一字\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021517_007_40m十六回波6ms一字"
+    },
+    {
+      "name": "DJI_202512021517_008_50m十六回波6ms一字",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021517_008_50m十六回波6ms一字\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021517_008_50m十六回波6ms一字"
+    },
+    {
+      "name": "DJI_202512021517_009_60m十六回波6ms一字",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021517_009_60m十六回波6ms一字\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021517_009_60m十六回波6ms一字"
+    },
+    {
+      "name": "DJI_202512021622_010_40m十六回波6ms米字",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_010_40m十六回波6ms米字\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021622_010_40m十六回波6ms米字"
+    },
+    {
+      "name": "DJI_202512021622_011_50m十六回波6ms米字",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_011_50m十六回波6ms米字\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021622_011_50m十六回波6ms米字"
+    },
+    {
+      "name": "DJI_202512021622_012_60m十六回波6m米字",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_012_60m十六回波6m米字\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021622_012_60m十六回波6m米字"
+    },
+    {
+      "name": "DJI_202512021622_013_60m十六回波6m米字-非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_013_60m十六回波6m米字-非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512021622_013_60m十六回波6m米字-非重复"
+    },
+    {
+      "name": "DJI_202512150934_266_惠清惠州方向-K359-680-800-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512150934_266_惠清惠州方向-K359-680-800-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K359-680-800",
+      "duplicate_of": "DJI_202512021404_258_惠清汕头方向-K359-680-800-点云"
+    },
+    {
+      "name": "DJI_202512151003_268_惠清高速湛江方向-K367-340-450-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151003_268_惠清高速湛江方向-K367-340-450-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K367-340-450"
+    },
+    {
+      "name": "DJI_202512151033_271_惠清湛江方向-K368-710-850-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151033_271_惠清湛江方向-K368-710-850-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K368-710-850"
+    },
+    {
+      "name": "DJI_202512151033_274_惠清汕头方向-K368-850-980-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151033_274_惠清汕头方向-K368-850-980-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K368-850-980"
+    },
+    {
+      "name": "DJI_202512151121_277_惠清湛江方向-K376-545-695-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151121_277_惠清湛江方向-K376-545-695-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K376-545-695"
+    },
+    {
+      "name": "DJI_202512151141_279_惠清汕头方向-K382-045-295-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151141_279_惠清汕头方向-K382-045-295-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K382-045-295"
+    },
+    {
+      "name": "DJI_202512151202_281_惠清湛江方向-K386-050-210-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151202_281_惠清湛江方向-K386-050-210-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K386-050-210"
+    },
+    {
+      "name": "DJI_202512151202_283_惠清汕头方向-K386-280-450-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151202_283_惠清汕头方向-K386-280-450-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K386-280-450"
+    },
+    {
+      "name": "DJI_202512151241_285_惠清湛江方向-K387-810-865-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151241_285_惠清湛江方向-K387-810-865-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K387-810-865"
+    },
+    {
+      "name": "DJI_202512151307_288_惠清湛江方向-K395-010-205-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151307_288_惠清湛江方向-K395-010-205-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K395-010-205"
+    },
+    {
+      "name": "DJI_202512151511_290_惠清太和洞隧道仰坡-K423-875-K424-007-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151511_290_惠清太和洞隧道仰坡-K423-875-K424-007-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512151511_290_惠清太和洞隧道仰坡-K423-875-K424-007-点云"
+    },
+    {
+      "name": "DJI_202512151631_292_惠清三门互通-AK1-600-850-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151631_292_惠清三门互通-AK1-600-850-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K1-600-850"
+    },
+    {
+      "name": "DJI_202512151702_295_惠清高山顶隧道惠州端口点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151702_295_惠清高山顶隧道惠州端口点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512151702_295_惠清高山顶隧道惠州端口点云"
+    },
+    {
+      "name": "DJI_202512160856_297_惠清杨梅隧道清远端口点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512160856_297_惠清杨梅隧道清远端口点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512160856_297_惠清杨梅隧道清远端口点云"
+    },
+    {
+      "name": "DJI_202512160919_300_惠清杨梅隧道惠州端口点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512160919_300_惠清杨梅隧道惠州端口点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512160919_300_惠清杨梅隧道惠州端口点云"
+    },
+    {
+      "name": "DJI_202512160938_304_惠清湛江方向-K351-310-700-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512160938_304_惠清湛江方向-K351-310-700-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K351-310-700"
+    },
+    {
+      "name": "DJI_202512161015_308_惠清湛江方向-K349-020-070-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161015_308_惠清湛江方向-K349-020-070-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K349-020-070"
+    },
+    {
+      "name": "DJI_202512161055_313_惠清湛江方向-K343-358-545-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161055_313_惠清湛江方向-K343-358-545-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K343-358-545",
+      "duplicate_of": "DJI_202512021058_252_惠清湛江方向-K343-358-545-点云"
+    },
+    {
+      "name": "DJI_202512161114_314_惠清湛江方向-K336-435-662-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161114_314_惠清湛江方向-K336-435-662-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K336-435-662"
+    },
+    {
+      "name": "DJI_202512161140_317_惠清汕头方向-K329-810-K330-020-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161140_317_惠清汕头方向-K329-810-K330-020-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512161140_317_惠清汕头方向-K329-810-K330-020-点云"
+    },
+    {
+      "name": "DJI_202512161200_319_惠清汕头方向-K327-059-109-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161200_319_惠清汕头方向-K327-059-109-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K327-059-109"
+    },
+    {
+      "name": "DJI_202512161200_322_惠清湛江方向-K326-960-K327-082-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161200_322_惠清湛江方向-K326-960-K327-082-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512161200_322_惠清湛江方向-K326-960-K327-082-点云"
+    },
+    {
+      "name": "DJI_202512161229_324_惠清湛江方向-K325-470-610-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161229_324_惠清湛江方向-K325-470-610-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K325-470-610"
+    },
+    {
+      "name": "DJI_202512161254_327_惠清汕头方向-K320-410-510-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161254_327_惠清汕头方向-K320-410-510-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K320-410-510"
+    },
+    {
+      "name": "DJI_202512161254_331_惠清湛江方向-K320-410-520-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161254_331_惠清湛江方向-K320-410-520-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K320-410-520"
+    },
+    {
+      "name": "DJI_202512161436_334_惠清汕头方向-K308-000-050-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161436_334_惠清汕头方向-K308-000-050-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K308-000-050"
+    },
+    {
+      "name": "DJI_202512161436_335_惠清汕头方向-K308-220-280-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161436_335_惠清汕头方向-K308-220-280-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K308-220-280"
+    },
+    {
+      "name": "DJI_202512161455_336_惠清汕头方向-K308-952-K309-020-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161455_336_惠清汕头方向-K308-952-K309-020-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512161455_336_惠清汕头方向-K308-952-K309-020-点云"
+    },
+    {
+      "name": "DJI_202512161455_337_惠清汕头方向-K309-036-159-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161455_337_惠清汕头方向-K309-036-159-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K309-036-159",
+      "duplicate_of": "DJI_202512011611_231_惠清汕头方向-K309-036-159-点云"
+    },
+    {
+      "name": "DJI_202512161550_339_惠清湛江方向-K358-350-560-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161550_339_惠清湛江方向-K358-350-560-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K358-350-560"
+    },
+    {
+      "name": "DJI_202512161627_342_高山顶清远端口点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161627_342_高山顶清远端口点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202512161627_342_高山顶清远端口点云"
+    },
+    {
+      "name": "DJI_202601131513_208_清云湛江方向-K603-562-632-点云-实验0113重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131513_208_清云湛江方向-K603-562-632-点云-实验0113重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601131513_209_清云湛江方向-K603-562-632-点云-实验0113非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131513_209_清云湛江方向-K603-562-632-点云-实验0113非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601131654_022_100Hz_一字形",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_022_100Hz_一字形\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_022_100Hz_一字形"
+    },
+    {
+      "name": "DJI_202601131654_022_100Hz_一字形_3D泼溅",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_022_100Hz_一字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_022_100Hz_一字形_3D泼溅"
+    },
+    {
+      "name": "DJI_202601131654_024_100Hz_米字形",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_024_100Hz_米字形\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_024_100Hz_米字形"
+    },
+    {
+      "name": "DJI_202601131654_024_100Hz_米字形_3D泼溅",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_024_100Hz_米字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_024_100Hz_米字形_3D泼溅"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形1"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形10",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形10\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形10"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形2"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形3",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形3\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形3"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形4",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形4\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形4"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形5",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形5\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形5"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形6",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形6\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形6"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形7",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形7\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形7"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形8",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形8\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形8"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形9",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形9\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形9"
+    },
+    {
+      "name": "DJI_202601131654_025_350Hz_米字形_3D泼溅",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131654_025_350Hz_米字形_3D泼溅"
+    },
+    {
+      "name": "DJI_202601131738_026_350Hz_一字形",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131738_026_350Hz_一字形\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131738_026_350Hz_一字形"
+    },
+    {
+      "name": "DJI_202601131738_026_350Hz_一字形_3D泼溅",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131738_026_350Hz_一字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601131738_026_350Hz_一字形_3D泼溅"
+    },
+    {
+      "name": "DJI_202601271106_005_清云湛江方向-K532-796-870-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271106_005_清云湛江方向-K532-796-870-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K532-796-870"
+    },
+    {
+      "name": "DJI_202601271106_007_清云湛江方向-K532-870-K533-084-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271106_007_清云湛江方向-K532-870-K533-084-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601271106_007_清云湛江方向-K532-870-K533-084-点云"
+    },
+    {
+      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复3",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复3\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复4",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复4\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复5",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复5\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复3",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复3\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复4",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复4\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复5",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复5\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土3",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土3\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土4",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土4\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土5",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土5\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土1",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土1\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土2",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土2\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土3",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土3\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土4",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土4\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土5",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土5\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "K603-562-632",
+      "duplicate_of": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云"
+    },
+    {
+      "name": "DJI_202601280841_013_清云汕头方向-K518-860-K519-005-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601280841_013_清云汕头方向-K518-860-K519-005-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202601280841_013_清云汕头方向-K518-860-K519-005-点云"
+    },
+    {
+      "name": "DJI_202601280959_016_清云汕头方向-K320-300-450-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601280959_016_清云汕头方向-K320-300-450-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K320-300-450"
+    },
+    {
+      "name": "DJI_202601281035_018_清云湛江方向-K530-552-688-点云",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601281035_018_清云湛江方向-K530-552-688-点云\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "K530-552-688"
+    },
+    {
+      "name": "DJI_202602141143_001_20260214学校操场水平-重复-无植被-无垫高",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141143_001_20260214学校操场水平-重复-无植被-无垫高\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141143_001_20260214学校操场水平-重复-无植被-无垫高"
+    },
+    {
+      "name": "DJI_202602141143_002_20260214学校操场水平-非重复-无植被-无垫高",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141143_002_20260214学校操场水平-非重复-无植被-无垫高\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141143_002_20260214学校操场水平-非重复-无植被-无垫高"
+    },
+    {
+      "name": "DJI_202602141335_003_20260214学校操场水平-重复-无植被-垫高",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141335_003_20260214学校操场水平-重复-无植被-垫高\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141335_003_20260214学校操场水平-重复-无植被-垫高"
+    },
+    {
+      "name": "DJI_202602141335_004_20260214学校操场水平-非重复-无植被-垫高",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141335_004_20260214学校操场水平-非重复-无植被-垫高\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141335_004_20260214学校操场水平-非重复-无植被-垫高"
+    },
+    {
+      "name": "DJI_202602141407_005_20260214学校操场倾斜-重复-无植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141407_005_20260214学校操场倾斜-重复-无植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141407_005_20260214学校操场倾斜-重复-无植被"
+    },
+    {
+      "name": "DJI_202602141407_006_20260214学校操场倾斜-非重复-无植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141407_006_20260214学校操场倾斜-非重复-无植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141407_006_20260214学校操场倾斜-非重复-无植被"
+    },
+    {
+      "name": "DJI_202602141438_007_20260214学校操场倾斜-重复-有植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_007_20260214学校操场倾斜-重复-有植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141438_007_20260214学校操场倾斜-重复-有植被"
+    },
+    {
+      "name": "DJI_202602141438_008_20260214学校操场倾斜-非重复-有植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_008_20260214学校操场倾斜-非重复-有植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141438_008_20260214学校操场倾斜-非重复-有植被"
+    },
+    {
+      "name": "DJI_202602141438_009_20260214学校操场水平垫高-重复-有植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_009_20260214学校操场水平垫高-重复-有植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141438_009_20260214学校操场水平垫高-重复-有植被"
+    },
+    {
+      "name": "DJI_202602141438_010_20260214学校操场水平垫高-非重复-有植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_010_20260214学校操场水平垫高-非重复-有植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141438_010_20260214学校操场水平垫高-非重复-有植被"
+    },
+    {
+      "name": "DJI_202602141438_011_20260214学校操场水平无垫高-重复-有植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_011_20260214学校操场水平无垫高-重复-有植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141438_011_20260214学校操场水平无垫高-重复-有植被"
+    },
+    {
+      "name": "DJI_202602141438_012_20260214学校操场水平无垫高-非重复-有植被",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_012_20260214学校操场水平无垫高-非重复-有植被\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "DJI_202602141438_012_20260214学校操场水平无垫高-非重复-有植被"
+    }
+  ],
+  "summary": {
+    "total": 296,
+    "unique_routes": 194,
+    "kept": 194
+  }
+}
