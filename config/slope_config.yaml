@@ -40,8 +40,10 @@ train:
 test:
   model_path: "runs/your_run/checkpoint_20.pth"
   input_dir: "datasets/SlopeLAS/infer_las"
+  output_dir: null
   out_suffix: "_pred"
   num_points: 65536
   num_classes: 3
   block_size: 20.0
   use_cuda_if_available: true
+  report_class_distribution: false

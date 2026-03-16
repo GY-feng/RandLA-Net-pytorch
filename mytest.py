@@ -28,11 +28,13 @@ except Exception:
 DEFAULT_CFG = {
     "model_path": Path("runs/your_run/checkpoint_20.pth"),
     "input_dir": Path("datasets/SlopeLAS/infer_las"),
+    "output_dir": None,  # None -> use input_dir
     "out_suffix": "_pred",
     "num_points": 65536,
     "num_classes": 3,
     "block_size": 20.0,
     "use_cuda_if_available": True,
+    "report_class_distribution": False,
 }
 # -------------------------------------------
 
@@ -144,11 +146,22 @@ def main():
     if len(las_files) == 0:
         raise RuntimeError(f"No .las files found in {cfg['input_dir']}")
 
+    out_dir = Path(cfg["output_dir"]) if cfg.get("output_dir") else Path(cfg["input_dir"])
+    out_dir.mkdir(parents=True, exist_ok=True)
+
     model = load_model(device, cfg)
+
+    valid_labels = np.arange(cfg["num_classes"], dtype=np.int32)
+    total_correct = 0
+    total_count = 0
 
     for las_path in tqdm(las_files, desc="Predict LAS"):
         las = laspy.read(las_path)
+        gt_labels = np.array(las.classification, copy=True)
         xyz = np.vstack((las.x, las.y, las.z)).T.astype(np.float32)
+
+        # Reset classification to 0 before prediction
+        las.classification = np.zeros_like(las.classification)
 
         pred = predict_full_cloud(
             model,
@@ -161,9 +174,34 @@ def main():
         )
 
         las.classification = pred.astype(las.classification.dtype)
-        out_path = las_path.with_name(las_path.stem + cfg["out_suffix"] + las_path.suffix)
+        out_path = out_dir / f"{las_path.stem}{cfg['out_suffix']}{las_path.suffix}"
         las.write(out_path)
-        print(f"Saved: {out_path}")
+
+        # Accuracy (ignore labels outside 0..num_classes-1)
+        mask = np.isin(gt_labels, valid_labels)
+        if mask.any():
+            correct = int((pred[mask] == gt_labels[mask]).sum())
+            count = int(mask.sum())
+            acc = correct / max(1, count)
+            total_correct += correct
+            total_count += count
+            print(f"Saved: {out_path} | Acc: {acc:.4f} ({correct}/{count})")
+        else:
+            print(f"Saved: {out_path} | Acc: N/A (no valid GT labels)")
+
+        if cfg.get("report_class_distribution", False):
+            gt_counts = np.bincount(gt_labels[mask], minlength=cfg["num_classes"]) if mask.any() else np.zeros(cfg["num_classes"], dtype=np.int64)
+            pred_counts = np.bincount(pred[mask], minlength=cfg["num_classes"]) if mask.any() else np.zeros(cfg["num_classes"], dtype=np.int64)
+            gt_ratio = (gt_counts / max(1, gt_counts.sum())).round(4)
+            pred_ratio = (pred_counts / max(1, pred_counts.sum())).round(4)
+            print(f"  GT dist:   {gt_counts.tolist()} ratios={gt_ratio.tolist()}")
+            print(f"  Pred dist: {pred_counts.tolist()} ratios={pred_ratio.tolist()}")
+
+    if total_count > 0:
+        overall_acc = total_correct / total_count
+        print(f"Overall Acc: {overall_acc:.4f} ({total_correct}/{total_count})")
+    else:
+        print("Overall Acc: N/A (no valid GT labels)")
 
 
 if __name__ == "__main__":
