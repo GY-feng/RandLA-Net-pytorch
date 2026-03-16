@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import re
+import os
 
 try:
     import yaml
@@ -60,7 +61,7 @@ def main():
     # Faster scan: only walk directories and check for target parent path
     # Instead of rglob("*.las"), which enumerates all LAS files.
     candidates = []
-    for dirpath, dirnames, filenames in root_dir.walk():
+    for dirpath, dirnames, filenames in os.walk(str(root_dir)):
         if not dirnames and not filenames:
             continue
         p = Path(dirpath)
