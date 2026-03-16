@@ -1,0 +1,42 @@
+input:
+  dir: "D:/Feng/myoriginaldatas"
+  recursive: false
+
+ground_filter:
+  class_value: 2
+  reset_classification: 0
+  output_dir: "D:/Feng/ground_points"
+  save_intermediate: true
+
+output:
+  dir: "D:/Feng/sim_output"
+  suffix: "_sim"
+
+label_policy:
+  reset_all: true
+  background: 0
+  bump: 1
+  depression: 2
+
+ratio:
+  abnormal_ratio: 0.05
+  bump_ratio: 0.6
+  depression_ratio: 0.4
+
+defect:
+  radius: [2.0, 4.0]
+  dz: [0.5, 2.0]
+  smooth_type: gaussian
+  margin_ratio: 0.02
+  overlap_policy: avoid
+  max_defects: 500
+  max_attempts: 2000
+
+noise:
+  std: 0.0
+
+seed: 2025
+
+logging:
+  save_log: true
+  log_name: run_log.json
