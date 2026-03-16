@@ -19,9 +19,9 @@ def _score_name(name: str, prefer_non_repeat: bool, prefer_no_suffix_digit: bool
     return score
 
 
-def _endswith_parts(path: Path, tail_parts) -> bool:
+def _is_target_dir(path: Path, target_parts) -> bool:
     parts = [p.lower() for p in path.parts]
-    tail = [p.lower() for p in tail_parts]
+    tail = [p.lower() for p in target_parts]
     if len(parts) < len(tail):
         return False
     return parts[-len(tail):] == tail
@@ -45,7 +45,6 @@ def main():
     root_dir = Path(scan_cfg.get("root_dir", ""))
     target_rel = scan_cfg.get("target_relpath", "lidars/terra_las/cloud_merged.las")
     out_json = Path(scan_cfg.get("output_json", "scan_list.json"))
-    recursive = bool(scan_cfg.get("recursive", True))
 
     route_regex = dedupe_cfg.get("route_regex", r"K\d{1,4}-\d{1,4}-\d{1,4}")
     prefer_non_repeat = bool(dedupe_cfg.get("prefer_non_repeat", True))
@@ -55,27 +54,35 @@ def main():
         raise FileNotFoundError(f"Scan root not found: {root_dir}")
 
     target_parts = Path(target_rel).parts
+    target_parent_parts = target_parts[:-1]
+    target_filename = target_parts[-1]
 
+    # Faster scan: only walk directories and check for target parent path
+    # Instead of rglob("*.las"), which enumerates all LAS files.
+    candidates = []
+    for dirpath, dirnames, filenames in root_dir.walk():
+        if not dirnames and not filenames:
+            continue
+        p = Path(dirpath)
+        if _is_target_dir(p, target_parent_parts):
+            if target_filename in filenames:
+                candidates.append(p / target_filename)
+
+    total = len(candidates)
     items = []
-    if recursive:
-        candidates = root_dir.rglob("*.las")
-    else:
-        candidates = root_dir.glob("*.las")
-
-    for p in candidates:
-        if _endswith_parts(p, target_parts):
-            # expected structure: xx/lidars/terra_las/cloud_merged.las
-            try:
-                name = p.parents[len(target_parts) - 1].name
-            except Exception:
-                name = p.parent.name
-            items.append(
-                {
-                    "name": name,
-                    "las_path": str(p),
-                    "selected": True,
-                }
-            )
+    for idx, p in enumerate(candidates, start=1):
+        print(f"正在处理第 {idx}/{total} 个文件: {p.name}")
+        try:
+            name = p.parents[len(target_parent_parts) - 1].name
+        except Exception:
+            name = p.parent.name
+        items.append(
+            {
+                "name": name,
+                "las_path": str(p),
+                "selected": True,
+            }
+        )
 
     # dedupe by route id
     grouped = {}

@@ -38,9 +38,9 @@ logging:
   log_name: run_log.json
 
 scan:
-  root_dir: "D:/path/to/wappe2007@qq.com"
+  root_dir: "D:/CloudPointProcessing/PCGSPRO_1740743422/wappe2007@qq.com"
   target_relpath: "lidars/terra_las/cloud_merged.las"
-  output_json: "D:/path/to/scan_list.json"
+  output_json: "D:/Feng/codes/generate_slope/scan_list.json"
   recursive: true
 
 dedupe:
@@ -49,5 +49,5 @@ dedupe:
   prefer_no_suffix_digit: true
 
 step2:
-  selected_json: "D:/path/to/scan_list.json"
-  output_dir: "D:/path/to/output"
+  selected_json: "D:/Feng/codes/generate_slope/scan_list.json"
+  output_dir: "D:/Feng/ground_points"
