@@ -6,7 +6,7 @@ ground_filter:
   class_value: 2
   reset_classification: 0
   output_dir: "D:/Feng/ground_points"
-  save_intermediate: true
+  save_intermediate: false
 
 output:
   dir: "D:/Feng/sim_output"
@@ -29,8 +29,8 @@ defect:
   smooth_type: gaussian
   margin_ratio: 0.02
   overlap_policy: avoid
-  max_defects: 500
-  max_attempts: 2000
+  max_defects: 2000
+  max_attempts: 5000
 
 noise:
   std: 0.0

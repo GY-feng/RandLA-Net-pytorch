@@ -231,7 +231,21 @@ def main():
 
     cfg_path = Path(args.config)
     if not cfg_path.exists():
-        raise FileNotFoundError(f"Config not found: {cfg_path}")
+        # Try resolving relative to this script's directory
+        script_dir = Path(__file__).parent
+        alt_path = script_dir / cfg_path
+        if alt_path.exists():
+            cfg_path = alt_path
+        else:
+            # Common mistake: running inside generate_slope but still prefixing "generate_slope/"
+            if len(cfg_path.parts) > 1 and cfg_path.parts[0] == "generate_slope":
+                alt_path2 = script_dir / Path(*cfg_path.parts[1:])
+                if alt_path2.exists():
+                    cfg_path = alt_path2
+                else:
+                    raise FileNotFoundError(f"Config not found: {cfg_path}")
+            else:
+                raise FileNotFoundError(f"Config not found: {cfg_path}")
 
     with open(cfg_path, "r", encoding="utf-8") as f:
         cfg = yaml.safe_load(f) or {}
