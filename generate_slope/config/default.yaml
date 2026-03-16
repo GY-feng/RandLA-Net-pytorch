@@ -45,3 +45,13 @@ scan:
 step2:
   selected_json: "D:/Feng/codes/generate_slope/scan_list.json"
   output_dir: "D:/Feng/ground_points"
+dedupe:
+  input_json: "D:/path/to/scan_list.json"
+  output_json: "D:/path/to/scan_list_dedup.json"
+  route_regex: "K\\d{1,4}-\\d{1,4}-\\d{1,4}"
+  prefer_non_repeat: true
+  prefer_no_suffix_digit: true
+
+step3:
+  selected_json: "D:/path/to/scan_list_dedup.json"
+  output_dir: "D:/path/to/output"
