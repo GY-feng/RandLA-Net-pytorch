@@ -1,1486 +1,2391 @@
-{
-  "root_dir": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com",
+﻿{
+  "root_dir": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com",
   "target_relpath": "lidars/terra_las/cloud_merged.las",
   "items": [
     {
-      "name": "DJI_202411061039_202_K603-562-632",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202411061039_202_K603-562-632\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\013_鎯犳竻婀涙睙鏂瑰悜婵€鍏塊386-050-210\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": null
     },
     {
-      "name": "DJI_202507091538_295_云罗K339-296-735点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202507091538_295_云罗K339-296-735点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\015_鎯犳竻婀涙睙鏂瑰悜K386-280-450鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202507101026_307_云梧-K340-955-995-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202507101026_307_云梧-K340-955-995-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\018_鎯犳竻婀涙睙K387-810-865鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202508221426_217_英怀阳江方向-K86-850-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202508221426_217_英怀阳江方向-K86-850-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\020_鎯犳竻婀涙睙K395-010-205\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202508231013_222_英怀怀集方向-K26-000-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202508231013_222_英怀怀集方向-K26-000-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\026_鎯犳竻娓呰繙鏂瑰悜K351-310-700\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101155_155_清云湛江方向-K516-550-650-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_155_清云湛江方向-K516-550-650-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\026_鎯犳竻婀涙睙K348-700-349-100鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101155_155_清云湛江方向-K516-550-650-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_155_清云湛江方向-K516-550-650-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\027_鎯犳竻姹曞ごK348-700-349-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101155_157_清云湛江方向-K516-550-650-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101155_157_清云湛江方向-K516-550-650-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\029_鎯犳竻娓呰繙鏂瑰悜K353-870-354-160\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101233_158_清云湛江方向-K516-550-650-3cm-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101233_158_清云湛江方向-K516-550-650-3cm-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\031_鎯犳竻姹曞ごK348-700-349-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101233_159_清云湛江方向-K516-550-650-3cm-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101233_159_清云湛江方向-K516-550-650-3cm-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\032_鎯犳竻婀涙睙K349-020-070鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101259_161_清云湛江方向-K516-550-650-6cm-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101259_161_清云湛江方向-K516-550-650-6cm-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\033_鎯犳竻娓呰繙鏂瑰悜K358-350-560\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101259_162_清云湛江方向-K516-550-650-6cm-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101259_162_清云湛江方向-K516-550-650-6cm-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\034_鎯犳竻婀涙睙鏂瑰悜K347-437-522鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\036_鎯犳竻娓呰繙鏂瑰悜K359-680-800\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_164_清云湛江方向-K603-562-632-点云-原始-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\036_鎯犳竻婀涙睙鏂瑰悜K347-437-522鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\037_鎯犳竻姹曞ごK346-850-347-015鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101620_168_清云湛江方向-K603-562-632-点云-原始-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\037_鎯犳竻婀涙睙鏂瑰悜K347-437-522鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101705_169_清云湛江方向-K603-562-632-点云-除草-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101705_169_清云湛江方向-K603-562-632-点云-除草-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\039_鎯犳竻姹曞ごK346-850-347-015鐐逛簯(1)\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101705_170_清云湛江方向-K603-562-632-点云-除草-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101705_170_清云湛江方向-K603-562-632-点云-除草-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\039_鎯犳竻娓呰繙鏂瑰悜K361-300-530\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101728_171_清云湛江方向-K603-562-632-点云-除草除完-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101728_171_清云湛江方向-K603-562-632-点云-除草除完-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\039_鎯犳竻婀涙睙K343-358-545鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510101728_172_清云湛江方向-K603-562-632-点云-除草除完-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510101728_172_清云湛江方向-K603-562-632-点云-除草除完-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\040_鎯犳竻姹曞ごK346-640-850鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510140938_173_清云湛江方向-K491-840-980-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510140938_173_清云湛江方向-K491-840-980-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\041_鎯犳竻婀涙睙K343-550-670鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141004_176_清云湛江方向-K492-818-K493-015-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141004_176_清云湛江方向-K492-818-K493-015-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\042_鎯犳竻娓呰繙鏂瑰悜K361-047濉钩鍖篭\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141004_179_清云湛江方向-K493-160-275-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141004_179_清云湛江方向-K493-160-275-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\043_鎯犳竻涓滆K343-639鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141129_184_清云湛江方向-K514-700-860-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141129_184_清云湛江方向-K514-700-860-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\043_鎯犳竻婀涙睙K336-435-662鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141129_185_清云湛江方向-K514-700-860-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141129_185_清云湛江方向-K514-700-860-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\044_鎯犳竻娓呰繙鏂瑰悜K361-300-530\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141554_186_清云汕头方向-K520-200-300-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141554_186_清云汕头方向-K520-200-300-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\044_鎯犳竻婀涙睙K343-550-670鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141554_187_清云汕头方向-K520-200-300-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141554_187_清云汕头方向-K520-200-300-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\045_鎯犳竻姹曞ごK327-059-109鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141618_188_清云湛江方向-K516-550-650",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141618_188_清云湛江方向-K516-550-650\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\046_鎯犳竻婀涙睙K343-358-545鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141618_190_清云湛江方向-K516-550-650-3cm-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141618_190_清云湛江方向-K516-550-650-3cm-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\047_鎯犳竻婀涙睙K343-358-545鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141634_191_清云湛江方向-K516-540-740-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141634_191_清云湛江方向-K516-540-740-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\048_鎯犳竻婀涙睙K326-960-K327-082鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141634_194_清云湛江方向-K516-260-440-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141634_194_清云湛江方向-K516-260-440-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\048_鎯犳竻婀涙睙K343-358-545鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141717_197_清云湛江方向-K516-050-155-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141717_197_清云湛江方向-K516-050-155-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\048_鎯犳竻楂橀€熸竻杩滄柟鍚慘367-340-450\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510141754_200_清云湛江方向-K493-570-875-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510141754_200_清云湛江方向-K493-570-875-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\049_鎯犳竻婀涙睙K325-470-610鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510150923_203_清云湛江方向-K603-132-272-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150923_203_清云湛江方向-K603-132-272-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\051_鎯犳竻姹曞ごK320-410-510鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510150923_205_清云湛江方向-K603-312-392-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150923_205_清云湛江方向-K603-312-392-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\053_鎯犳竻娓呰繙鏂瑰悜K368-710-850\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510150948_207_清云湛江方向-K603-562-632-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150948_207_清云湛江方向-K603-562-632-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\053_鎯犳竻婀涙睙K320-410-520鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510150948_209_清云湛江方向-K603-772-862-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510150948_209_清云湛江方向-K603-772-862-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\054_鎯犳竻娓呰繙鏂瑰悜K368-850-980\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151015_211_清云湛江方向-K603-982-K604-038-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151015_211_清云湛江方向-K603-982-K604-038-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\055_鎯犳竻鍗楁槅灞盇K0-810-920鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151025_213_清云湛江方向-K604-452-542-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151025_213_清云湛江方向-K604-452-542-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\057_鎯犳竻姹曞ごK329-810-K330-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151039_215_清云湛江方向-K604-817-882-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151039_215_清云湛江方向-K604-817-882-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\057_鎯犳竻娓呰繙鏂瑰悜K376-545-650\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151052_217_清云湛江方向-K605-852-992-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151052_217_清云湛江方向-K605-852-992-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\059_鎯犳竻娓呬簯鏂瑰悜K382-045-001\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151332_219_清云汕头方向-K531-880-980-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151332_219_清云汕头方向-K531-880-980-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\060_鎯犳竻姹曞ごK309-036-159鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151332_220_清云汕头方向-K531-880-980-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151332_220_清云汕头方向-K531-880-980-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\061_鎯犳竻姹曞ごK329-810-K330-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510151441_223_清云汕头方向-K493-570-875-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510151441_223_清云汕头方向-K493-570-875-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\062_骞夸經鑲囦笂琛孠87-500-660\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510160911_227_英怀阳江方向-K86-850-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510160911_227_英怀阳江方向-K86-850-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\062_鎯犳竻姹曞ごK308-952-K309-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161051_229_英怀怀集方向-K25-730-K26-100-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161051_229_英怀怀集方向-K25-730-K26-100-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\063_鎯犳竻姹曞ごK327-059-109鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_239_241_清云湛江方向-K603-562-632-点云01",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_239_241_清云湛江方向-K603-562-632-点云01\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\064_鎯犳竻婀涙睙K308-804-K309-012鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\065_骞夸經鑲囦笂琛孠87-704-767\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_239_清云湛江方向-K603-562-632-点云01-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\065_鎯犳竻婀涙睙K326-960-K327-082鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\066_鎯犳竻姹曞ごK308-441-619鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_240_清云湛江方向-K603-562-632-点云01-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\067_鎯犳竻婀涙睙K325-470-610鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\068_鎯犳竻婀涙睙K308-270-460鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_241_清云湛江方向-K603-562-632-点云01-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\069_鎯犳竻姹曞ごK320-410-510鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\070_鎯犳竻姹曞ごK308-220-280鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161541_243_清云湛江方向-K603-562-632-点云01-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\072_鎯犳竻姹曞ごK308-000-050鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_244_245_清云湛江方向-K603-562-632-点云02",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_244_245_清云湛江方向-K603-562-632-点云02\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\072_鎯犳竻婀涙睙K320-410-520鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\074_鎯犳竻姹曞ご鏂瑰悜k318-820-k319-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_244_清云湛江方向-K603-562-632-点云02-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\076_鎯犳竻婀涙睙K307-600-752鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\078_鎯犳竻婀涙睙K306-320-K307-052鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_245_清云湛江方向-K603-562-632-点云02-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\080_鎯犳竻婀涙睙K306-320-432鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": true,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_246_247_清云湛江方向-K603-562-632-点云03",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_247_清云湛江方向-K603-562-632-点云03\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\082_鎯犳竻婀涙睙K304-036-144鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\084_鎯犳竻鎵撻紦宀瑼K1-175-450鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\087_鎯犳竻婀涙睙K311-425-592鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\087_鎯犳竻婀涙睙鏂瑰悜K358-350-560鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复3",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复3\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\089_鎯犳竻姹曞ごK309-036-159鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复4",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_246_清云湛江方向-K603-562-632-点云03-重复4\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\089_鎯犳竻婀涙睙鏂瑰悜K359-680-800鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\091_鎯犳竻姹曞ごK308-952-K309-020鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161633_247_清云湛江方向-K603-562-632-点云03-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\092_鎯犳竻婀涙睙鏂瑰悜K361-300-530鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510161713_240_禾联岗互通-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510161713_240_禾联岗互通-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\094_鎯犳竻婀涙睙K308-804-K309-012鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_249_普通用户验证",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_普通用户验证\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\096_鎯犳竻姹曞ごK308-441-619鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_点云实验20251019-40m-3ms-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\096_鎯犳竻楂橀€熸竻杩滄柟鍚慘367-340-450鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_点云实验20251019-40m-3ms-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\098_鎯犳竻婀涙睙K308-270-460鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_249_点云实验20251019-40m-3ms-重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_249_点云实验20251019-40m-3ms-重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\099_鎯犳竻娓呰繙鏂瑰悜K368-710-850鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_250_点云实验20251019-40m-3ms-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\100_鎯犳竻姹曞ごK308-310-380鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_250_点云实验20251019-40m-3ms-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\102_鎯犳竻姹曞ごK308-220-280鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_250_点云实验20251019-40m-3ms-重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_250_点云实验20251019-40m-3ms-重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\103_鎯犳竻娓呰繙鏂瑰悜K368-850-980鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_251_点云实验20251019-40m-3ms-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\104_鎯犳竻姹曞ごK308-000-050鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_251_点云实验20251019-40m-3ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\105_鎯犳竻娓呰繙鏂瑰悜浠垮湴K376-545-695鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_251_点云实验20251019-40m-3ms-非重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_251_点云实验20251019-40m-3ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\107_鎯犳竻姹曞ごK307-739-859鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_252_点云实验20251019-40m-3ms-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\107_鎯犳竻娓呬簯鏂瑰悜K382-045-295鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_252_点云实验20251019-40m-3ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\109_鎯犳竻娓呬簯鏂瑰悜K382-045-295鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_252_点云实验20251019-40m-3ms-非重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_252_点云实验20251019-40m-3ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\109_鎯犳竻婀涙睙K307-600-752鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_253_点云实验20251019-40m-7ms-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\111_鎯犳竻婀涙睙K306-320-432鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_253_点云实验20251019-40m-7ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\113_鎯犳竻涓夐棬鍖濋亾-250鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_253_点云实验20251019-40m-7ms-非重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_253_点云实验20251019-40m-7ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\115_鎯犳竻婀涙睙K304-036-144鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_254_点云实验20251019-40m-7ms-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\118_鎯犳竻鎵撻紦宀瑼K1-175-450鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_254_点云实验20251019-40m-7ms-非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\121_娓呬簯婀涙睙鏂瑰悜K491-840-980鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_254_点云实验20251019-40m-7ms-非重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_254_点云实验20251019-40m-7ms-非重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\124_娓呬簯婀涙睙鏂瑰悜K492-818-K493-015鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_255_点云实验20251019-40m-7ms-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\126_娓呬簯婀涙睙鏂瑰悜K492-818-K493-015鐐逛簯-80mi闈為噸澶峔\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_255_点云实验20251019-40m-7ms-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\128_娓呬簯婀涙睙鏂瑰悜k493-160-275鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_255_点云实验20251019-40m-7ms-重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_255_点云实验20251019-40m-7ms-重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\130_娓呬簯婀涙睙鏂瑰悜k493-160-275鐐逛簯80mi闈為噸澶峔\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_256_点云实验20251019-40m-7ms-重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\133_娓呬簯婀涙睙鏂瑰悜k493-570-875鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_256_点云实验20251019-40m-7ms-重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\133_娓呬簯婀涙睙鏂瑰悜k493-570-875鐐逛簯80m闈為噸澶峔\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510191519_256_点云实验20251019-40m-7ms-重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510191519_256_点云实验20251019-40m-7ms-重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\137_鎯犳竻婀涙睙鏂瑰悜K386-050-210鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510200903_243_云梧广州方向-k130-450-505-路肩点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510200903_243_云梧广州方向-k130-450-505-路肩点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\139_鎯犳竻姹曞ご鏂瑰悜K386-280-450鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510200943_248_云梧广州方向-K136-274-404-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510200943_248_云梧广州方向-K136-274-404-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\14-骞夸經鑲囦笅琛孠115-143-062\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201011_250_云梧梧州方向-K150-478-654-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201011_250_云梧梧州方向-K150-478-654-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\142_娓呬簯婀涙睙鏂瑰悜K514-960-K515-220鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201041_252_云梧广州方向-K163-270-610-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201041_252_云梧广州方向-K163-270-610-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\143_鎯犳竻婀涙睙K395-010-205鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201041_254_云梧广州方向-K163-750-860-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201041_254_云梧广州方向-K163-750-860-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\144_娓呬簯姹曞ご鏂瑰悜K515-330-390鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201041_256_云梧梧州方向-K163-745-K164-0045-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201041_256_云梧梧州方向-K163-745-K164-0045-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\145_鎯犳竻婀涙睙K423-875鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201453_260_云梧梧州方向-K187-960-K188-180-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201453_260_云梧梧州方向-K187-960-K188-180-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\146_娓呬簯姹曞ご鏂瑰悜K515-450-K515-550鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201521_263_云梧广州方向-K181-995-K182-125-路肩墙点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201521_263_云梧广州方向-K181-995-K182-125-路肩墙点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\148_娓呬簯婀涙睙鏂瑰悜K516-050-155鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201537_265_云梧梧州方向-K180-217-357-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201537_265_云梧梧州方向-K180-217-357-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\150_娓呬簯婀涙睙鏂瑰悜K516-260-440鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201553_267_云梧梧州方向-178-027-122-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201553_267_云梧梧州方向-178-027-122-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\152_娓呬簯婀涙睙鏂瑰悜K516-540-740鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201612_270_云梧梧州方向-K169-545-K170-645-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201612_270_云梧梧州方向-K169-545-K170-645-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\166_瀛︽牎鎿嶅満-2脳2-鎸?cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201654_272_云梧梧州方向-K164-527-612-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201654_272_云梧梧州方向-K164-527-612-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\167_瀛︽牎鎿嶅満-2脳2-鎸?cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201654_274_云梧梧州方向-K164-090-237点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201654_274_云梧梧州方向-K164-090-237点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\168_瀛︽牎鎿嶅満-3脳3-鎸?0cm瑕嗙洊鑽夌毊\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510201747_276_云梧广州方向-K136-510-550-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510201747_276_云梧广州方向-K136-510-550-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\169_瀛︽牎鎿嶅満-3脳3-鎸?0cm瑕嗙洊鑽夌毊\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510210931_281_双凤枢纽立交广州方向-K122-491-747-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510210931_281_双凤枢纽立交广州方向-K122-491-747-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\17-骞夸經鑲囦笅琛孠114-976-000\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211112_288_云梧广西方向-K98-892-K99-137-路堤墙点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211112_288_云梧广西方向-K98-892-K99-137-路堤墙点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\170_瀛︽牎鎿嶅満1x1鎸?-3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211138_290_云梧广州方向-K98-100-255-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211138_290_云梧广州方向-K98-100-255-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\171_瀛︽牎鎿嶅満1x1鎸?-3cm11am\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211429_293_云梧梧州方向-K96-430-730-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211429_293_云梧梧州方向-K96-430-730-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\172_瀛︽牎鎿嶅満1x1鎸?-3cm11am\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211456_297_云梧广州方向-K98-050-490-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211456_297_云梧广州方向-K98-050-490-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\182_瀛︽牎鎿嶅満-2脳2鎸栧湡2cm-鑽夌毊鐩嗘牻4妫礬\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211548_300_云梧梧州方向-K113-510-828-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211548_300_云梧梧州方向-K113-510-828-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\237_鎯犳竻娓呰繙鏂瑰悜鐐逛簯K351-310-700\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211625_303_肇阳广西方向-K31-790-940-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211625_303_肇阳广西方向-K31-790-940-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\249_鎯犳竻鍗楁槅灞盇K0-810-920鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211647_307_肇阳广州方向-K34-280-340-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211647_307_肇阳广州方向-K34-280-340-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\251_鎯犳竻鍗楁槅灞盇K0-700-810鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211701_309_肇阳广西方向-K37-558-K38-000-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211701_309_肇阳广西方向-K37-558-K38-000-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\253_鎯犳竻姹曞ごK346-640-850鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510211733_311_肇阳广西方向-K39-610-680-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510211733_311_肇阳广西方向-K39-610-680-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202407051218_020_娓呬簯姹曟箾鏂瑰悜濉钩鍖篲K505_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510220905_314_肇阳广州方向-K44-930-980-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510220905_314_肇阳广州方向-K44-930-980-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202407111238_029_娓呬簯姹曟箾鏂瑰悜濉钩鍖篲K505_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510220946_317_云罗广西方向-K317-876-k318-006-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510220946_317_云罗广西方向-K317-876-k318-006-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202409031655_120_娓呬簯姹曟箾鏂瑰悜_K533-200_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221002_319_云罗罗定方向-K322-121-236-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221002_319_云罗罗定方向-K322-121-236-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202409111114_142_娓呬簯姹曟箾鏂瑰悜_K533-200_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221022_321_云梧罗定方向-K323-916-324-100-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221022_321_云梧罗定方向-K323-916-324-100-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202502191047_244_娓呬簯姹曟箾鏂瑰悜濉钩鍖篲K505_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221036_323_云罗罗定方向-K324-426-626-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221036_323_云罗罗定方向-K324-426-626-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202504021519_027_鎯犳竻姹曞ごK348-700-349-020鐐逛簯_绗竴娆″贰椋瀄\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221057_325_云罗罗定方向-K327-745-945-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221057_325_云罗罗定方向-K327-745-945-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202504091629_118_鎯犳竻鎵撻紦宀璤AK1-175-450_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221112_327_云罗罗定方向-K328-676-846-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221112_327_云罗罗定方向-K328-676-846-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202505271448_031_鎯犳竻姹曞ごK348-700-349-020鐐逛簯_绗簩娆″贰椋瀄\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221112_329_云罗罗定方向-K329-026-166-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221112_329_云罗罗定方向-K329-026-166-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202505300956_048_鎯犳竻婀涙睙_K326-960-K327-082_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221441_332_云罗广西方向-K345-610-800-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221441_332_云罗广西方向-K345-610-800-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506061200_084_鎯犳竻鎵撻紦宀璤AK1-175-450_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221458_334_云罗广西方向-K344-196-356-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221458_334_云罗广西方向-K344-196-356-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071100_123_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221458_336_云罗广西方向-K343-976-K344-066-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221458_336_云罗广西方向-K343-976-K344-066-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071116_124_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221522_338_云罗罗定方向-K342-376-516-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221522_338_云罗罗定方向-K342-376-516-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071116_125_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510221522_340_云罗罗定方向-K342-216-316-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510221522_340_云罗罗定方向-K342-216-316-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071116_126_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510230901_342_肇阳广西方向-K42-670-K43-000-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510230901_342_肇阳广西方向-K42-670-K43-000-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071116_127_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510230938_347_肇阳广西方向-K46-760-K47-050-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510230938_347_肇阳广西方向-K46-760-K47-050-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071116_128_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231007_350_肇阳广西方向-K47-320-490-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231007_350_肇阳广西方向-K47-320-490-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071147_129_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231047_353_云罗广西方向-K329-350-550-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231047_353_云罗广西方向-K329-350-550-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071147_130_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231109_355_云罗罗定方向-K329-882-912-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231109_355_云罗罗定方向-K329-882-912-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071147_131_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231109_357_云罗罗定方向-K330-206-316-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231109_357_云罗罗定方向-K330-206-316-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071147_132_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231109_359_云罗罗定方向-K330-075-225-路堤墙点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231109_359_云罗罗定方向-K330-075-225-路堤墙点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071147_133_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231349_362_云罗广西方向-K338-340-680-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231349_362_云罗广西方向-K338-340-680-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506071147_134_鐐逛簯瀹為獙0607\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231407_364_云罗罗定方向-K339-296-735-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231407_364_云罗罗定方向-K339-296-735-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506111216_113_鎯犳竻涓夐棬浜掗€歘AK1-600-85_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231407_366_云罗广西方向-K339-655-900-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231407_366_云罗广西方向-K339-655-900-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231055_160_浜戞ⅶ-K169-545-K170-645-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231452_369_云罗罗定方向-K340-275-415-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231452_369_云罗罗定方向-K340-275-415-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231500_165_浜戞ⅶ-K181-125-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231452_371_云罗广西方向-K340-416-710-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231452_371_云罗广西方向-K340-416-710-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231519_167_浜戞ⅶ-K180-217-357-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231452_373_云罗罗定方向-K340-576-768-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231452_373_云罗罗定方向-K340-576-768-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231519_168_浜戞ⅶ-180-217-357-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231533_376_云罗罗定方向-K340-955-995-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231533_376_云罗罗定方向-K340-955-995-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231519_169_浜戞ⅶ-K180-217-357-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510231616_378_云罗罗定方向-K332-950-333-250-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510231616_378_云罗罗定方向-K332-950-333-250-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231551_171_浜戞ⅶ-K178-027-122-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510241018_382_云梧建城互通-EK0-012-150-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241018_382_云梧建城互通-EK0-012-150-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231551_173_浜戞ⅶ-K178-027-122-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510241113_387_肇阳广西方向-宋桂互通DK0-045-383-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241113_387_肇阳广西方向-宋桂互通DK0-045-383-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231642_174_浜戞ⅶ-K164-527-612-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510241225_395_云罗附城互通-DK0-060-240-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241225_395_云罗附城互通-DK0-060-240-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506231642_176_浜戞ⅶ-K164-090-237-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510241321_398_云梧高村互通-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510241321_398_云梧高村互通-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506240832_179_浜戞ⅶ璺偐-K130-450-505-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281419_176_清云湛江方向-K603-562-632-点云-实验",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_176_清云湛江方向-K603-562-632-点云-实验\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506240857_181_浜戞ⅶ-K136-274-404-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281419_177_清云湛江方向-K603-562-632-点云-实验-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_177_清云湛江方向-K603-562-632-点云-实验-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506240931_183_浜戞ⅶ-K150-478-654-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281419_178_清云湛江方向-K603-562-632-点云-实验-7米",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_178_清云湛江方向-K603-562-632-点云-实验-7米\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506241003_185_浜戞ⅶ-K163-270-k163-600-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281419_181_清云湛江方向-K603-562-632-点云-实验-非重复-7米",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281419_181_清云湛江方向-K603-562-632-点云-实验-非重复-7米\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506241038_187_浜戞ⅶ-K163-750-860-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281516_182_清云湛江方向-K603-562-632-点云-实验-填土",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_182_清云湛江方向-K603-562-632-点云-实验-填土\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506241453_191_浜戞ⅶ-K98-100-255-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281516_183_清云湛江方向-K603-562-632-点云-实验-非重复-填土",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_183_清云湛江方向-K603-562-632-点云-实验-非重复-填土\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506241541_195_浜戞ⅶ-98-892-137-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281516_184_清云湛江方向-K603-562-632-点云-实验-7米填土",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_184_清云湛江方向-K603-562-632-点云-实验-7米填土\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506251104_203_瀹嬫浜掗€?鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281516_185_清云湛江方向-K603-562-632-点云-实验-非重复-7米填土",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281516_185_清云湛江方向-K603-562-632-点云-实验-非重复-7米填土\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506251532_210_鑲囬槼-K44-930-980-01-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281552_186_清云湛江方向-K603-562-632-点云-实验-洒水",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_186_清云湛江方向-K603-562-632-点云-实验-洒水\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506251559_212_鑲囬槼-K39-610-680-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281552_187_清云湛江方向-K603-562-632-点云-实验-非重复-洒水",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_187_清云湛江方向-K603-562-632-点云-实验-非重复-洒水\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506251620_215_鑲囬槼-K37-558-K38-000-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281552_188_清云湛江方向-K603-562-632-点云-实验-7米洒水",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_188_清云湛江方向-K603-562-632-点云-实验-7米洒水\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506251701_217_鑲囬槼-K34-280-340-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202510281552_189_清云湛江方向-K603-562-632-点云-实验-非重复-7米洒水",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202510281552_189_清云湛江方向-K603-562-632-点云-实验-非重复-7米洒水\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202506251734_220_鑲囬槼-K31-790-940-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061517_190_清云湛江方向-K514-700-860-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061517_190_清云湛江方向-K514-700-860-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507031055_251_浜戠綏-K322-121-236-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061517_191_清云湛江方向-K514-700-860-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061517_191_清云湛江方向-K514-700-860-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507031125_253_浜戞ⅶ-K323-916-K324-100-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061547_192_清云湛江方向-K516-550-650-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061547_192_清云湛江方向-K516-550-650-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507041236_264_浜戞ⅶ-K317-876-K318-006-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061547_193_清云湛江方向-K516-550-650-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061547_193_清云湛江方向-K516-550-650-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507041313_268_浜戠綏-K324-426-626-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061604_194_清云汕头方向-K520-200-300-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061604_194_清云汕头方向-K520-200-300-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507041337_270_浜戠綏-K327-745-945-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061604_195_清云汕头方向-K520-200-300-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061604_195_清云汕头方向-K520-200-300-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507041408_272_浜戠綏-K328-676-846-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061630_196_清云汕头方向-K531-880-980-点云-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061630_196_清云汕头方向-K531-880-980-点云-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507041438_274_浜戠綏-K329-026-166-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511061630_197_清云汕头方向-K531-880-980-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511061630_197_清云汕头方向-K531-880-980-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081616_154_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-60搴?2cm_without2D\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_198_实验20251113清云湛江方向-K516-540-740-重复01",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_198_实验20251113清云湛江方向-K516-540-740-重复01\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081616_155_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-60搴?2cm_without2D\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_199_实验20251113清云湛江方向-K516-540-740-重复01",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_199_实验20251113清云湛江方向-K516-540-740-重复01\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081654_160_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-60搴?4cm_without2D\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_200_实验20251113清云湛江方向-K516-540-740-非重复01",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_200_实验20251113清云湛江方向-K516-540-740-非重复01\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081654_161_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-60搴?4cm_without2D\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_201_实验20251113清云湛江方向-K516-540-740-非重复01",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_201_实验20251113清云湛江方向-K516-540-740-非重复01\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081723_162_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_202_实验20251113清云湛江方向-K516-540-740-重复02",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_202_实验20251113清云湛江方向-K516-540-740-重复02\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081723_167_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-60搴?6cm_without2D\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_203_实验20251113清云湛江方向-K516-540-740-非重复02",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_203_实验20251113清云湛江方向-K516-540-740-非重复02\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507081723_168_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-60搴?6cm_without2D\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_204_实验20251113清云湛江方向-K516-540-740-重复02",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_204_实验20251113清云湛江方向-K516-540-740-重复02\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507090920_279_浜戞ⅶ-K329-350-550-澶氫簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202511131641_205_实验20251113清云湛江方向-K516-540-740-非重复02",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202511131641_205_实验20251113清云湛江方向-K516-540-740-非重复02\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507090948_281_浜戠綏-K329-882-912-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011038_206_惠清南昆山-AK0-810-920-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011038_206_惠清南昆山-AK0-810-920-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507090948_283_浜戠綏-K330-206-316-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011127_209_惠清湛江方向-K307-600-752-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011127_209_惠清湛江方向-K307-600-752-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507091047_286_浜戞ⅶ-K332-950-333-250-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011148_211_惠清湛江方向-K306-790-K307-052-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011148_211_惠清湛江方向-K306-790-K307-052-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507091510_292_浜戠綏-K338-340-680-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011148_213_惠清湛江-K306-320-432-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011148_213_惠清湛江-K306-320-432-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507091538_294_浜戠綏-K339-296-735-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011232_215_惠清打鼓岭-AK1-175-450-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011232_215_惠清打鼓岭-AK1-175-450-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507091538_295_浜戠綏-K339-296-735-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011522_221_惠清湛江方向-K308-270-460-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011522_221_惠清湛江方向-K308-270-460-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507100945_302_浜戠綏-K340-275-415-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011522_223_惠清汕头方向-K308-441-619-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011522_223_惠清汕头方向-K308-441-619-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101049_310_浜戠綏-K342-216-316-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011611_225_惠清湛江方向-K308-804-K309-012-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011611_225_惠清湛江方向-K308-804-K309-012-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101049_312_浜戠綏-K342-376-516-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011611_231_惠清汕头方向-K309-036-159-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011611_231_惠清汕头方向-K309-036-159-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101643_316_浜戠綏-K343-976-K344-066-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512011700_234_惠清汕头方向-K318-820-K319-020-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512011700_234_惠清汕头方向-K318-820-K319-020-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101643_317_浜戠綏-K343-976-K344-066-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512020924_237_惠清石岭隧道清远端口-K347-950-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512020924_237_惠清石岭隧道清远端口-K347-950-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101643_319_浜戠綏-K344-196-356-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512020956_240_惠清石岭隧道惠州端口-K347-562-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512020956_240_惠清石岭隧道惠州端口-K347-562-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101717_321_浜戠綏-K345-610-800-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512020956_243_惠清湛江方向-K347-437-552-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512020956_243_惠清湛江方向-K347-437-552-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507101815_323_浜戠綏姒冩花浜掗€?EK-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021032_246_惠清汕头方向-K346-850-K347-015-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021032_246_惠清汕头方向-K346-850-K347-015-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_174_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-3ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021058_249_惠清湛江方向-K343-550-670-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021058_249_惠清湛江方向-K343-550-670-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_175_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-3ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021058_252_惠清湛江方向-K343-358-545-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021058_252_惠清湛江方向-K343-358-545-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_176_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021156_255_惠清湛江方向-K304-036-144-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021156_255_惠清湛江方向-K304-036-144-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_177_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021404_258_惠清汕头方向-K359-680-800-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021404_258_惠清汕头方向-K359-680-800-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_178_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-6ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021421_261_惠清惠州方向-K361-300-530-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021421_261_惠清惠州方向-K361-300-530-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_179_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-6ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021517_007_40m十六回波6ms一字",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021517_007_40m十六回波6ms一字\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_180_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021517_008_50m十六回波6ms一字",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021517_008_50m十六回波6ms一字\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261012_181_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021517_009_60m十六回波6ms一字",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021517_009_60m十六回波6ms一字\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_182_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-3ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021622_010_40m十六回波6ms米字",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_010_40m十六回波6ms米字\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_183_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021622_011_50m十六回波6ms米字",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_011_50m十六回波6ms米字\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_184_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-6ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021622_012_60m十六回波6m米字",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_012_60m十六回波6m米字\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_185_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512021622_013_60m十六回波6m米字-非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512021622_013_60m十六回波6m米字-非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_186_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-3ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512150934_266_惠清惠州方向-K359-680-800-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512150934_266_惠清惠州方向-K359-680-800-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_187_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151003_268_惠清高速湛江方向-K367-340-450-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151003_268_惠清高速湛江方向-K367-340-450-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_188_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-6ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151033_271_惠清湛江方向-K368-710-850-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151033_271_惠清湛江方向-K368-710-850-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261112_189_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?3cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151033_274_惠清汕头方向-K368-850-980-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151033_274_惠清汕头方向-K368-850-980-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_190_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-3ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151121_277_惠清湛江方向-K376-545-695-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151121_277_惠清湛江方向-K376-545-695-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_191_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151141_279_惠清汕头方向-K382-045-295-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151141_279_惠清汕头方向-K382-045-295-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_192_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-6ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151202_281_惠清湛江方向-K386-050-210-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151202_281_惠清湛江方向-K386-050-210-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_193_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151202_283_惠清汕头方向-K386-280-450-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151202_283_惠清汕头方向-K386-280-450-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_194_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-3ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151241_285_惠清湛江方向-K387-810-865-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151241_285_惠清湛江方向-K387-810-865-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_195_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151307_288_惠清湛江方向-K395-010-205-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151307_288_惠清湛江方向-K395-010-205-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_196_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-6ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151511_290_惠清太和洞隧道仰坡-K423-875-K424-007-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151511_290_惠清太和洞隧道仰坡-K423-875-K424-007-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261445_197_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151631_292_惠清三门互通-AK1-600-850-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151631_292_惠清三门互通-AK1-600-850-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_198_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-3ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512151702_295_惠清高山顶隧道惠州端口点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512151702_295_惠清高山顶隧道惠州端口点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_199_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512160856_297_惠清杨梅隧道清远端口点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512160856_297_惠清杨梅隧道清远端口点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_200_鐐逛簯瀹為獙20250726閲嶅鎵弿40m-6ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512160919_300_惠清杨梅隧道惠州端口点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512160919_300_惠清杨梅隧道惠州端口点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_201_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512160938_304_惠清湛江方向-K351-310-700-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512160938_304_惠清湛江方向-K351-310-700-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_202_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-3ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161015_308_惠清湛江方向-K349-020-070-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161015_308_惠清湛江方向-K349-020-070-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_203_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-3ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161055_313_惠清湛江方向-K343-358-545-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161055_313_惠清湛江方向-K343-358-545-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_204_鐐逛簯瀹為獙20250726閲嶅鎵弿80m-6ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161114_314_惠清湛江方向-K336-435-662-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161114_314_惠清湛江方向-K336-435-662-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202507261601_205_鐐逛簯瀹為獙20250726闈為噸澶嶆壂鎻?0m-6ms-90搴?9cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161140_317_惠清汕头方向-K329-810-K330-020-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161140_317_惠清汕头方向-K329-810-K330-020-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508080917_211_鎯犳竻姹曞ご_K348-700-K349-020_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161200_319_惠清汕头方向-K327-059-109-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161200_319_惠清汕头方向-K327-059-109-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508080951_214_鎯犳竻婀涙睙鏂瑰悜_K347-437-522_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161200_322_惠清湛江方向-K326-960-K327-082-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161200_322_惠清湛江方向-K326-960-K327-082-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508081019_217_鎯犳竻姹曞ご_K346-850-K347-015_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161229_324_惠清湛江方向-K325-470-610-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161229_324_惠清湛江方向-K325-470-610-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508081047_219_鎯犳竻婀涙睙_K343-358-545_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161254_327_惠清汕头方向-K320-410-510-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161254_327_惠清汕头方向-K320-410-510-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508081047_221_鎯犳竻婀涙睙_K343-550-670_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161254_331_惠清湛江方向-K320-410-520-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161254_331_惠清湛江方向-K320-410-520-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508081120_223_鎯犳竻婀涙睙_K336-435-662_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161436_334_惠清汕头方向-K308-000-050-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161436_334_惠清汕头方向-K308-000-050-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508121604_482_鎯犳竻姹曞ご鏂瑰悜_K318-900-K319-150_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161436_335_惠清汕头方向-K308-220-280-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161436_335_惠清汕头方向-K308-220-280-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508131038_150_鎯犳竻鏉ㄦ闅ч亾鎯犲窞绔彛_K352-416_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161455_336_惠清汕头方向-K308-952-K309-020-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161455_336_惠清汕头方向-K308-952-K309-020-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508131125_153_鎯犳竻鏉ㄦ闅ч亾娓呰繙绔彛_K352-955_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161455_337_惠清汕头方向-K309-036-159-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161455_337_惠清汕头方向-K309-036-159-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508131558_166_鎯犳竻楂樺北椤堕毀閬撴儬宸炵鍙K363-237_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161550_339_惠清湛江方向-K358-350-560-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161550_339_惠清湛江方向-K358-350-560-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508211153_185_娓呬簯婀涙睙鏂瑰悜_K605-852-992_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202512161627_342_高山顶清远端口点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202512161627_342_高山顶清远端口点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508211416_189_娓呬簯婀涙睙鏂瑰悜_K604-817-882_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131513_208_清云湛江方向-K603-562-632-点云-实验0113重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131513_208_清云湛江方向-K603-562-632-点云-实验0113重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508211442_193_娓呬簯婀涙睙鏂瑰悜_K604-452-542_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131513_209_清云湛江方向-K603-562-632-点云-实验0113非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131513_209_清云湛江方向-K603-562-632-点云-实验0113非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508211516_197_娓呬簯婀涙睙鏂瑰悜_K603-982-K604-038_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_022_100Hz_一字形",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_022_100Hz_一字形\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508220909_202_娓呬簯婀涙睙鏂瑰悜_K603-772-862_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_022_100Hz_一字形_3D泼溅",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_022_100Hz_一字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508220932_205_娓呬簯婀涙睙鏂瑰悜_K603-562-632_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_024_100Hz_米字形",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_024_100Hz_米字形\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508220954_208_娓呬簯婀涙睙鏂瑰悜_K603-312-392_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_024_100Hz_米字形_3D泼溅",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_024_100Hz_米字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508220954_211_娓呬簯婀涙睙鏂瑰悜_K603-132-272_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508260914_495_鐭冲箔闅ч亾娓呰繙绔彛-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508260914_495_鐭冲箔闅ч亾娓呰繙绔彛_K347-950_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形10",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形10\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508260943_500_鐭冲箔闅ч亾鎯犲窞绔彛-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508260943_500_鐭冲箔闅ч亾鎯犲窞绔彛鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形3",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形3\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261021_503_鎯犳竻姹曞ご鏂瑰悜-K329-810-K330-020-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形4",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形4\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261044_506_鎯犳竻姹曞ご鏂瑰悜-K327-059-109-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形5",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形5\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261044_508_鎯犳竻婀涙睙鏂瑰悜-K326-960-K327-082-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形6",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形6\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261457_511_鎯犳竻姹曞ご鏂瑰悜-K308-441-619-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形7",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形7\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261457_514_鎯犳竻婀涙睙鏂瑰悜-K308-270-460-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形8",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形8\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261533_517_鎯犳竻姹曞ご鏂瑰悜-K308-220-280-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形9",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形9\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261533_520_鎯犳竻姹曞ご鏂瑰悜-K308-000-050-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131654_025_350Hz_米字形_3D泼溅",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131654_025_350Hz_米字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261556_523_鎯犳竻婀涙睙鏂瑰悜-K307-600-752-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131738_026_350Hz_一字形",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131738_026_350Hz_一字形\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261619_526_鎯犳竻婀涙睙鏂瑰悜-K306-790-K307-052-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601131738_026_350Hz_一字形_3D泼溅",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601131738_026_350Hz_一字形_3D泼溅\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261651_529_鎯犳竻婀涙睙鏂瑰悜-K306-320-432-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271106_005_清云湛江方向-K532-796-870-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271106_005_清云湛江方向-K532-796-870-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261708_532_鎯犳竻婀涙睙鏂瑰悜-K304-036-144-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271106_007_清云湛江方向-K532-870-K533-084-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271106_007_清云湛江方向-K532-870-K533-084-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508261729_535_鎯犳竻鎵撻紦宀?AK1-175-450-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508270925_538_楂樺北椤舵竻杩滅鍙?鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508270925_538_楂樺北椤舵竻杩滅鍙ｇ偣浜慭\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271001_541_鎯犳竻婀涙睙鏂瑰悜-K376-545-695-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复3",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复3\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271021_544_鎯犳竻姹曞ご鏂瑰悜-K382-045-295-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复4",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复4\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271507_547_鎯犳竻婀涙睙鏂瑰悜-K395-010-205-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复5",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_009_清云湛江方向-K603-562-632-点云-实验0127非重复5\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271619_550_鎯犳竻澶拰娲為毀閬撲话鍧?K423-875-K424-007-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271619_550_鎯犳竻澶拰娲為毀閬撲话鍧K423-875-K424-007_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271701_553_鎯犳竻婀涙睙鏂瑰悜-K387-810-865-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271719_556_鎯犳竻婀涙睙鏂瑰悜-K386-050-210-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复3",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复3\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202508271719_559_鎯犳竻姹曞ご鏂瑰悜-K386-280-450-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复4",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复4\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011534_224_鐐逛簯绌块€忔祴璇?901_閲嶅鎵弿_鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复5",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271413_010_清云湛江方向-K603-562-632-点云-实验0127重复5\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011534_224_鐐逛簯绌块€忔祴璇?901_閲嶅鎵弿_鍘熷_鏈€澶у瘑搴\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011534_225_鐐逛簯绌块€忔祴璇?901_闈為噸澶嶆壂鎻廮鍘熷\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011534_225_鐐逛簯绌块€忔祴璇?901_闈為噸澶嶆壂鎻廮鍘熷_鏈€澶у瘑搴\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011610_226_鐐逛簯绌块€忔祴璇?901_閲嶅鎵弿_绗竴娆￠櫎鑽塡\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土3",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土3\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011610_226_鐐逛簯绌块€忔祴璇?901_閲嶅鎵弿_绗竴娆￠櫎鑽塤鏈€澶у瘑搴\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土4",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土4\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011610_227_鐐逛簯绌块€忔祴璇?901_闈為噸澶嶆壂鎻廮绗竴娆￠櫎鑽塡\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土5",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_011_清云湛江方向-K603-562-632-点云-实验0127重复填土5\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011610_227_鐐逛簯绌块€忔祴璇?901_闈為噸澶嶆壂鎻廮绗竴娆￠櫎鑽塤鏈€澶у瘑搴\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011650_228_鐐逛簯绌块€忔祴璇?901_閲嶅鎵弿_绗簩娆￠櫎鑽塡\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土1",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土1\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011650_228_鐐逛簯绌块€忔祴璇?901_閲嶅鎵弿_绗簩娆￠櫎鑽塤鏈€澶у瘑搴\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土2",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土2\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011650_229_鐐逛簯绌块€忔祴璇?901_闈為噸澶嶆壂鎻廮绗簩娆￠櫎鑽塡\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土3",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土3\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509011650_229_鐐逛簯绌块€忔祴璇?901_闈為噸澶嶆壂鎻廮绗簩娆￠櫎鑽塤鏈€澶у瘑搴\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土4",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土4\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509030826_001_浜戞ⅶ骞垮窞鏂瑰悜璺偐_K130-450-505_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土5",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601271548_012_清云湛江方向-K603-562-632-点云-实验0127非重复填土5\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031041_006_浜戞ⅶ骞垮窞鏂瑰悜_K163-270-610_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601280841_013_清云汕头方向-K518-860-K519-005-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601280841_013_清云汕头方向-K518-860-K519-005-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031108_009_浜戞ⅶ骞垮窞鏂瑰悜_K163-750-860_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601280959_016_清云汕头方向-K320-300-450-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601280959_016_清云汕头方向-K320-300-450-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031133_012_浜戞ⅶ姊у窞鏂瑰悜_K164-090-150_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202601281035_018_清云湛江方向-K530-552-688-点云",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202601281035_018_清云湛江方向-K530-552-688-点云\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031133_016_浜戞ⅶ姊у窞鏂瑰悜_K164-527-612_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141143_001_20260214学校操场水平-重复-无植被-无垫高",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141143_001_20260214学校操场水平-重复-无植被-无垫高\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031329_019_浜戞ⅶ姊у窞鏂瑰悜_K178-027-122_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141143_002_20260214学校操场水平-非重复-无植被-无垫高",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141143_002_20260214学校操场水平-非重复-无植被-无垫高\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031354_022_浜戞ⅶ姊у窞鏂瑰悜_K180-217-357_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141335_003_20260214学校操场水平-重复-无植被-垫高",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141335_003_20260214学校操场水平-重复-无植被-垫高\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031416_025_浜戞ⅶ骞垮窞鏂瑰悜璺偐澧檁K181-995-K182-125_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141335_004_20260214学校操场水平-非重复-无植被-垫高",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141335_004_20260214学校操场水平-非重复-无植被-垫高\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031514_029_浜戞ⅶ姊у窞鏂瑰悜_K169-545-K170-645_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141407_005_20260214学校操场倾斜-重复-无植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141407_005_20260214学校操场倾斜-重复-无植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509031623_033_浜戞ⅶ姊у窞鏂瑰悜_K150-478-654_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141407_006_20260214学校操场倾斜-非重复-无植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141407_006_20260214学校操场倾斜-非重复-无植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051008_039_鑲囬槼骞垮窞鏂瑰悜_K34-280-340_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141438_007_20260214学校操场倾斜-重复-有植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_007_20260214学校操场倾斜-重复-有植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051105_046_鑲囬槼骞胯タ鏂瑰悜_K39-610-680_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141438_008_20260214学校操场倾斜-非重复-有植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_008_20260214学校操场倾斜-非重复-有植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051124_050_鑲囬槼骞胯タ鏂瑰悜_瀹嬫浜掗€歘DK0-045-383_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141438_009_20260214学校操场水平垫高-重复-有植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_009_20260214学校操场水平垫高-重复-有植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051124_051_鑲囬槼骞胯タ鏂瑰悜_瀹嬫浜掗€歘DK0-045-383_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141438_010_20260214学校操场水平垫高-非重复-有植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_010_20260214学校操场水平垫高-非重复-有植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051203_056_鑲囬槼骞垮窞鏂瑰悜-K44-930-980-鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141438_011_20260214学校操场水平无垫高-重复-有植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_011_20260214学校操场水平无垫高-重复-有植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051434_059_浜戠綏骞胯タ鏂瑰悜_K317-876-K318-006_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     },
     {
-      "name": "DJI_202602141438_012_20260214学校操场水平无垫高-非重复-有植被",
-      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1761030020\\wappe2007@qq.com\\DJI_202602141438_012_20260214学校操场水平无垫高-非重复-有植被\\lidars\\terra_las\\cloud_merged.las",
-      "selected": false
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051457_062_浜戠綏缃楀畾鏂瑰悜_K322-121-236_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051522_065_浜戠綏缃楀畾鏂瑰悜_K327-745-945_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051546_068_浜戠綏缃楀畾鏂瑰悜_K328-676-846_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051609_071_浜戠綏缃楀畾鏂瑰悜_K329-026-166_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051647_077_浜戠綏缃楀畾鏂瑰悜_K329-882-912_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051647_080_浜戠綏缃楀畾鏂瑰悜_K330-206-316_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509051727_084_浜戠綏缃楀畾鏂瑰悜_K332-950-K333-250_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509060940_090_浜戠綏骞胯タ鏂瑰悜_K329-350-550_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061011_092_浜戠綏骞胯タ鏂瑰悜_K338-340-680_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061103_098_浜戠綏缃楀畾鏂瑰悜_K340-275-415_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061103_102_浜戠綏骞胯タ鏂瑰悜_K340-416-710_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061141_105_浜戠綏缃楀畾鏂瑰悜_K340-955-995_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061412_108_浜戠綏骞胯タ鏂瑰悜_K345-610-800_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061434_112_浜戠綏骞胯タ鏂瑰悜_K343-976-K344-066_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061434_115_浜戠綏骞胯タ鏂瑰悜_K344-196-356_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061507_118_浜戠綏缃楀畾鏂瑰悜_K342-216-316_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061507_121_浜戠綏缃楀畾鏂瑰悜_K342-376-516_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061627_125_浜戠綏缃楀畾鏂瑰悜_K324-426-626_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509061652_128_浜戞ⅶ缃楀畾鏂瑰悜_K323-916-324-100_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509070846_132_浜戞ⅶ骞胯タ鏂瑰悜璺牑澧檁K98-892-K99-137_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509070907_135_浜戞ⅶ骞垮窞鏂瑰悜_K98-100-255_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509070954_138_浜戞ⅶ骞垮窞鏂瑰悜_K136-274-404_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\DJI_202509071122_141_鑲囬槼骞胯タ鏂瑰悜瀹嬫浜掗€歘DK0-045-383_鐐逛簯\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\K477\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\K582\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\K601-娓楁按妯℃嫙\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\K603(1)\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鎸″湡澧欐ā鎷焅\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鎸″湡澧欐ā鎷燂紙鎵嬮锛塡\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\娴婃按10cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\娴婃按5cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081616_149_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-90搴?2cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081616_150_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-90搴?2cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081616_152_鐐逛簯瀹為獙20250708閲嶅鎵弿80m-90搴?2cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081616_153_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-90搴?2cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081654_156_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-90搴?4cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081654_157_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-90搴?4cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081654_158_鐐逛簯瀹為獙20250708閲嶅鎵弿80m-90搴?4cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081654_159_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-90搴?4cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081723_162_鐐逛簯瀹為獙20250708閲嶅鎵弿40m-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081723_163_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081723_164_鐐逛簯瀹為獙20250708閲嶅鎵弿80m-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\鐐逛簯瀹為獙20250708\\DJI_202507081723_165_鐐逛簯瀹為獙20250708闈為噸澶嶆壂鎻?0m-90搴?6cm\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\杞﹀矖鏈嶅姟鍖篭\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
+    },
+    {
+      "name": "lidars",
+      "las_path": "D:\\CloudPointProcessing\\PCGSPRO_1740743422\\wappe2007@qq.com\\闄㈡ゼ 閲嶅 鏃犳按\\lidars\\terra_las\\cloud_merged.las",
+      "selected": false,
+      "route_id": "lidars",
+      "duplicate_of": "lidars"
     }
-  ]
+  ],
+  "summary": {
+    "total": 340,
+    "unique_routes": 1,
+    "kept": 1
+  }
 }

@@ -1,6 +1,7 @@
 ﻿import argparse
 from pathlib import Path
 import json
+import time
 
 try:
     import yaml
@@ -13,6 +14,8 @@ import numpy as np
 
 
 def main():
+    start_time = time.time()
+
     parser = argparse.ArgumentParser(description="Step2: filter class=2 points and save.")
     parser.add_argument("--config", default=str(Path(__file__).parent / "config" / "default.yaml"))
     args = parser.parse_args()
@@ -78,6 +81,7 @@ def main():
         json.dump(log, f, ensure_ascii=False, indent=2)
 
     print(f"Processed {len(selected_items)} items. Log: {log_path}")
+    print(f"执行完毕，用时 {time.time() - start_time:.2f} 秒")
 
 
 if __name__ == "__main__":

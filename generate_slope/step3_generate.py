@@ -1,6 +1,7 @@
 ﻿import argparse
 from pathlib import Path
 import sys
+import time
 
 try:
     import yaml
@@ -20,6 +21,8 @@ def list_las_files(root: Path, recursive: bool):
 
 
 def main():
+    start_time = time.time()
+
     parser = argparse.ArgumentParser(description="Generate slope defects from LAS using YAML config.")
     parser.add_argument("--config", default=str(Path(__file__).parent / "config" / "default.yaml"))
     args = parser.parse_args()
@@ -69,6 +72,8 @@ def main():
         log_name = get(cfg, "logging.log_name", "run_log.json")
         dump_json(report, out_dir / log_name)
         print(f"Log saved: {out_dir / log_name}")
+
+    print(f"执行完毕，用时 {time.time() - start_time:.2f} 秒")
 
 
 if __name__ == "__main__":

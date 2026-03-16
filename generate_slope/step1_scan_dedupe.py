@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import re
 import os
+import time
 
 try:
     import yaml
@@ -29,6 +30,8 @@ def _is_target_dir(path: Path, target_parts) -> bool:
 
 
 def main():
+    start_time = time.time()
+
     parser = argparse.ArgumentParser(description="Step1: scan and dedupe by route id.")
     parser.add_argument("--config", default=str(Path(__file__).parent / "config" / "default.yaml"))
     args = parser.parse_args()
@@ -50,6 +53,7 @@ def main():
     route_regex = dedupe_cfg.get("route_regex", r"K\d{1,4}-\d{1,4}-\d{1,4}")
     prefer_non_repeat = bool(dedupe_cfg.get("prefer_non_repeat", True))
     prefer_no_suffix_digit = bool(dedupe_cfg.get("prefer_no_suffix_digit", True))
+    dedupe_enabled = bool(dedupe_cfg.get("enabled", True))
 
     if not root_dir.exists():
         raise FileNotFoundError(f"Scan root not found: {root_dir}")
@@ -85,38 +89,40 @@ def main():
             }
         )
 
-    # dedupe by route id
     grouped = {}
-    for it in items:
-        name = it.get("name", "")
-        m = re.search(route_regex, name)
-        route_id = m.group(0) if m else name
-        it["route_id"] = route_id
-        grouped.setdefault(route_id, []).append(it)
-
-    kept = 0
-    for route_id, group in grouped.items():
-        if len(group) == 1:
-            group[0]["selected"] = True
-            kept += 1
-            continue
-
-        scored = []
-        for it in group:
+    kept = len(items)
+    if dedupe_enabled:
+        # dedupe by route id
+        for it in items:
             name = it.get("name", "")
-            score = _score_name(name, prefer_non_repeat, prefer_no_suffix_digit)
-            scored.append((score, len(name), it))
-        scored.sort(key=lambda x: (x[0], x[1]))
-        best = scored[0][2]
+            m = re.search(route_regex, name)
+            route_id = m.group(0) if m else name
+            it["route_id"] = route_id
+            grouped.setdefault(route_id, []).append(it)
 
-        for _, _, it in scored:
-            if it is best:
-                it["selected"] = True
-                it["duplicate_of"] = None
-            else:
-                it["selected"] = False
-                it["duplicate_of"] = best.get("name")
-        kept += 1
+        kept = 0
+        for route_id, group in grouped.items():
+            if len(group) == 1:
+                group[0]["selected"] = True
+                kept += 1
+                continue
+
+            scored = []
+            for it in group:
+                name = it.get("name", "")
+                score = _score_name(name, prefer_non_repeat, prefer_no_suffix_digit)
+                scored.append((score, len(name), it))
+            scored.sort(key=lambda x: (x[0], x[1]))
+            best = scored[0][2]
+
+            for _, _, it in scored:
+                if it is best:
+                    it["selected"] = True
+                    it["duplicate_of"] = None
+                else:
+                    it["selected"] = False
+                    it["duplicate_of"] = best.get("name")
+            kept += 1
 
     payload = {
         "root_dir": str(root_dir),
@@ -124,7 +130,7 @@ def main():
         "items": items,
         "summary": {
             "total": len(items),
-            "unique_routes": len(grouped),
+            "unique_routes": len(grouped) if dedupe_enabled else len(items),
             "kept": kept,
         },
     }
@@ -134,8 +140,10 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print(f"Found {len(items)} LAS files.")
-    print(f"Unique routes: {len(grouped)}")
+    if dedupe_enabled:
+        print(f"Unique routes: {len(grouped)}")
     print(f"List saved to: {out_json}")
+    print(f"执行完毕，用时 {time.time() - start_time:.2f} 秒")
 
 
 if __name__ == "__main__":

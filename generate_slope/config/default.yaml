@@ -44,6 +44,7 @@ scan:
   recursive: true
 
 dedupe:
+  enabled: true
   route_regex: "K\\d{1,4}-\\d{1,4}-\\d{1,4}"
   prefer_non_repeat: true
   prefer_no_suffix_digit: true
