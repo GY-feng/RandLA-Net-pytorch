@@ -6,3 +6,4 @@ torch>=1.4.0
 torch-points-kernels>=0.5.2
 tqdm>=4.45.0
 laspy>=2.0.0
+pyyaml>=6.0

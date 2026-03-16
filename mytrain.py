@@ -3,7 +3,7 @@ mytrain.py
 
 XYZ-only RandLA-Net training script for SlopeLAS.
 Run:
-    python mytrain.py
+    python mytrain.py --config config/slope_config.yaml
 """
 
 from __future__ import annotations
@@ -12,6 +12,7 @@ import json
 import time
 from datetime import datetime
 from pathlib import Path
+import argparse
 
 import numpy as np
 from tqdm import tqdm
@@ -23,8 +24,13 @@ from torch.utils.tensorboard import SummaryWriter
 from data import data_loaders
 from model import RandLANet
 
+try:
+    import yaml
+except Exception:
+    yaml = None
+
 # ----------------------- CONFIG -----------------------
-CONFIG = {
+DEFAULT_CONFIG = {
     # Paths
     "dataset_root": Path("datasets/SlopeLAS"),
     "logs_dir": Path("runs"),
@@ -51,6 +57,22 @@ CONFIG = {
     "class_weight_smooth_eps": 0.02,
 }
 # ------------------------------------------------------
+
+
+def _load_yaml_config(path: Path) -> dict:
+    if yaml is None:
+        raise RuntimeError("Missing dependency: PyYAML. Please install with: pip install pyyaml")
+    if not path.exists():
+        raise FileNotFoundError(f"Config not found: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return data.get("train", {})
+
+
+def _merge_cfg(defaults: dict, overrides: dict) -> dict:
+    merged = dict(defaults)
+    merged.update(overrides or {})
+    return merged
 
 
 def compute_class_weights(loader, num_classes, device, smooth_eps=0.02, max_weight=5.0):
@@ -281,7 +303,13 @@ def train(cfg):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Train RandLA-Net")
+    parser.add_argument("--config", default=str(Path("config/slope_config.yaml")))
+    args = parser.parse_args()
+
+    cfg = _merge_cfg(DEFAULT_CONFIG, _load_yaml_config(Path(args.config)))
+
     print("Using configuration:")
-    for k, v in CONFIG.items():
+    for k, v in cfg.items():
         print(f"  {k}: {v}")
-    train(CONFIG)
+    train(cfg)

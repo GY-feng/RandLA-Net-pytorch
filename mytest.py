@@ -3,7 +3,7 @@ mytest.py
 
 批量推理 LAS 文件，输出 classification 字段 (0/1/2)。
 Run:
-    python mytest.py
+    python mytest.py --config config/slope_config.yaml
 """
 
 from __future__ import annotations
@@ -15,19 +15,42 @@ import torch.nn.functional as F
 from sklearn.neighbors import KDTree
 import laspy
 from tqdm import tqdm
+import argparse
 
 from model import RandLANet
 
-# ------------------ CONFIG ------------------
-MODEL_PATH = Path("runs/your_run/checkpoint_20.pth")
-INPUT_DIR = Path("datasets/SlopeLAS/infer_las")
-OUT_SUFFIX = "_pred"
+try:
+    import yaml
+except Exception:
+    yaml = None
 
-NUM_POINTS = 65536
-NUM_CLASSES = 3
-BLOCK_SIZE = 20.0
-USE_CUDA_IF_AVAILABLE = True
+# ------------------ CONFIG ------------------
+DEFAULT_CFG = {
+    "model_path": Path("runs/your_run/checkpoint_20.pth"),
+    "input_dir": Path("datasets/SlopeLAS/infer_las"),
+    "out_suffix": "_pred",
+    "num_points": 65536,
+    "num_classes": 3,
+    "block_size": 20.0,
+    "use_cuda_if_available": True,
+}
 # -------------------------------------------
+
+
+def _load_yaml_config(path: Path) -> dict:
+    if yaml is None:
+        raise RuntimeError("Missing dependency: PyYAML. Please install with: pip install pyyaml")
+    if not path.exists():
+        raise FileNotFoundError(f"Config not found: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return data.get("test", {})
+
+
+def _merge_cfg(defaults: dict, overrides: dict) -> dict:
+    merged = dict(defaults)
+    merged.update(overrides or {})
+    return merged
 
 
 def normalize_block(points: np.ndarray, block_size: float) -> np.ndarray:
@@ -89,11 +112,11 @@ def predict_full_cloud(model, cloud_xyz, num_classes, device, num_points=65536, 
     return final_labels
 
 
-def load_model(device):
-    model = RandLANet(d_in=3, num_classes=NUM_CLASSES, num_neighbors=32, decimation=4, device=device)
+def load_model(device, cfg):
+    model = RandLANet(d_in=3, num_classes=cfg["num_classes"], num_neighbors=32, decimation=4, device=device)
     model.to(device)
 
-    ckpt = torch.load(MODEL_PATH, map_location=device)
+    ckpt = torch.load(cfg["model_path"], map_location=device)
     if isinstance(ckpt, dict) and "model_state_dict" in ckpt:
         model.load_state_dict(ckpt["model_state_dict"])
     else:
@@ -104,18 +127,24 @@ def load_model(device):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="RandLA-Net inference")
+    parser.add_argument("--config", default=str(Path("config/slope_config.yaml")))
+    args = parser.parse_args()
+
+    cfg = _merge_cfg(DEFAULT_CFG, _load_yaml_config(Path(args.config)))
+
     print("=== mytest.py batch LAS prediction ===")
-    device = torch.device("cuda:0" if (torch.cuda.is_available() and USE_CUDA_IF_AVAILABLE) else "cpu")
+    device = torch.device("cuda:0" if (torch.cuda.is_available() and cfg["use_cuda_if_available"]) else "cpu")
     print("Device:", device)
 
-    if not INPUT_DIR.exists():
-        raise FileNotFoundError(f"Input dir not found: {INPUT_DIR}")
+    if not Path(cfg["input_dir"]).exists():
+        raise FileNotFoundError(f"Input dir not found: {cfg['input_dir']}")
 
-    las_files = sorted(INPUT_DIR.glob("*.las"))
+    las_files = sorted(Path(cfg["input_dir"]).glob("*.las"))
     if len(las_files) == 0:
-        raise RuntimeError(f"No .las files found in {INPUT_DIR}")
+        raise RuntimeError(f"No .las files found in {cfg['input_dir']}")
 
-    model = load_model(device)
+    model = load_model(device, cfg)
 
     for las_path in tqdm(las_files, desc="Predict LAS"):
         las = laspy.read(las_path)
@@ -124,15 +153,15 @@ def main():
         pred = predict_full_cloud(
             model,
             xyz,
-            num_classes=NUM_CLASSES,
+            num_classes=cfg["num_classes"],
             device=device,
-            num_points=NUM_POINTS,
-            block_size=BLOCK_SIZE,
+            num_points=cfg["num_points"],
+            block_size=cfg["block_size"],
             verbose=False,
         )
 
         las.classification = pred.astype(las.classification.dtype)
-        out_path = las_path.with_name(las_path.stem + OUT_SUFFIX + las_path.suffix)
+        out_path = las_path.with_name(las_path.stem + cfg["out_suffix"] + las_path.suffix)
         las.write(out_path)
         print(f"Saved: {out_path}")
 

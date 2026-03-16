@@ -10,7 +10,7 @@ prepare_slope_las.py
 - 2: 凹陷
 
 运行:
-    python prepare_slope_las.py
+    python prepare_slope_las.py --config config/slope_config.yaml
 """
 
 from __future__ import annotations
@@ -18,13 +18,19 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Dict, Tuple
+import argparse
 
 import numpy as np
 import laspy
 from tqdm import tqdm
 
+try:
+    import yaml
+except Exception:
+    yaml = None
+
 # --------------------------- CONFIG ---------------------------
-CFG = {
+DEFAULT_CFG = {
     # 数据集根目录
     "dataset_root": Path("datasets/SlopeLAS"),
     "raw_las_dir": Path("datasets/SlopeLAS/raw_las"),
@@ -56,6 +62,22 @@ CFG = {
     "seed": 42,
 }
 # -------------------------------------------------------------
+
+
+def _load_yaml_config(path: Path) -> dict:
+    if yaml is None:
+        raise RuntimeError("Missing dependency: PyYAML. Please install with: pip install pyyaml")
+    if not path.exists():
+        raise FileNotFoundError(f"Config not found: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return data.get("prepare", {})
+
+
+def _merge_cfg(defaults: dict, overrides: dict) -> dict:
+    merged = dict(defaults)
+    merged.update(overrides or {})
+    return merged
 
 
 def grid_sub_sampling(points: np.ndarray, labels: np.ndarray, grid_size: float) -> Tuple[np.ndarray, np.ndarray]:
@@ -139,7 +161,7 @@ def write_block(out_dir: Path, stem: str, block_idx: int, points: np.ndarray, la
     np.save(out_path, data)
 
 
-def process_las(las_path: Path, out_dirs: Dict[str, Path], rng: np.random.RandomState) -> Dict[str, int]:
+def process_las(las_path: Path, out_dirs: Dict[str, Path], rng: np.random.RandomState, cfg: dict) -> Dict[str, int]:
     """
     处理单个 LAS 文件，返回各 split 的样本数。
     """
@@ -149,54 +171,54 @@ def process_las(las_path: Path, out_dirs: Dict[str, Path], rng: np.random.Random
     xyz = np.vstack((las.x, las.y, las.z)).T.astype(np.float32)
     raw_labels = np.array(las.classification, dtype=np.int32)
 
-    mapped_labels, unknown_count = map_labels(raw_labels, CFG["label_map"], CFG["unknown_to_background"])
+    mapped_labels, unknown_count = map_labels(raw_labels, cfg["label_map"], cfg["unknown_to_background"])
     if unknown_count > 0:
         print(f"[WARN] {las_path.name}: 未知标签 {unknown_count} 个，已映射为背景(0)")
 
     # 体素下采样
-    if CFG["use_voxel_subsample"]:
-        xyz, mapped_labels = grid_sub_sampling(xyz, mapped_labels, CFG["grid_size"])
+    if cfg["use_voxel_subsample"]:
+        xyz, mapped_labels = grid_sub_sampling(xyz, mapped_labels, cfg["grid_size"])
 
     if xyz.shape[0] == 0:
         stats["skipped"] += 1
         return stats
 
     # 滑窗切块
-    if CFG["use_sliding_window"]:
+    if cfg["use_sliding_window"]:
         x_min, y_min, _ = np.min(xyz, axis=0)
         x_max, y_max, _ = np.max(xyz, axis=0)
 
-        x_starts = get_window_starts(x_min, x_max, CFG["block_size"], CFG["stride"])
-        y_starts = get_window_starts(y_min, y_max, CFG["block_size"], CFG["stride"])
+        x_starts = get_window_starts(x_min, x_max, cfg["block_size"], cfg["stride"])
+        y_starts = get_window_starts(y_min, y_max, cfg["block_size"], cfg["stride"])
 
         block_idx = 0
         for x0 in x_starts:
-            x1 = x0 + CFG["block_size"]
+            x1 = x0 + cfg["block_size"]
             x_mask = (xyz[:, 0] >= x0) & (xyz[:, 0] < x1)
             for y0 in y_starts:
-                y1 = y0 + CFG["block_size"]
+                y1 = y0 + cfg["block_size"]
                 mask = x_mask & (xyz[:, 1] >= y0) & (xyz[:, 1] < y1)
 
-                if mask.sum() < CFG["min_points"]:
+                if mask.sum() < cfg["min_points"]:
                     continue
 
                 block_xyz = xyz[mask]
                 block_lbl = mapped_labels[mask]
 
-                block_xyz = normalize_block(block_xyz, CFG["block_size"])
-                block_xyz, block_lbl = sample_block(block_xyz, block_lbl, CFG["num_points"], rng)
+                block_xyz = normalize_block(block_xyz, cfg["block_size"])
+                block_xyz, block_lbl = sample_block(block_xyz, block_lbl, cfg["num_points"], rng)
 
-                split = pick_split(rng, CFG["split_ratio"])
+                split = pick_split(rng, cfg["split_ratio"])
                 write_block(out_dirs[split], las_path.stem, block_idx, block_xyz, block_lbl)
                 stats[split] += 1
                 block_idx += 1
 
     else:
         # 整云当作单块
-        if xyz.shape[0] >= CFG["min_points"]:
-            block_xyz = normalize_block(xyz, CFG["block_size"])
-            block_xyz, block_lbl = sample_block(block_xyz, mapped_labels, CFG["num_points"], rng)
-            split = pick_split(rng, CFG["split_ratio"])
+        if xyz.shape[0] >= cfg["min_points"]:
+            block_xyz = normalize_block(xyz, cfg["block_size"])
+            block_xyz, block_lbl = sample_block(block_xyz, mapped_labels, cfg["num_points"], rng)
+            split = pick_split(rng, cfg["split_ratio"])
             write_block(out_dirs[split], las_path.stem, 0, block_xyz, block_lbl)
             stats[split] += 1
         else:
@@ -215,15 +237,21 @@ def pick_split(rng: np.random.RandomState, ratios: Dict[str, float]) -> str:
 
 
 def main() -> None:
-    dataset_root = CFG["dataset_root"]
-    raw_dir = CFG["raw_las_dir"]
+    parser = argparse.ArgumentParser(description="Prepare SlopeLAS dataset")
+    parser.add_argument("--config", default=str(Path("config/slope_config.yaml")))
+    args = parser.parse_args()
+
+    cfg = _merge_cfg(DEFAULT_CFG, _load_yaml_config(Path(args.config)))
+
+    dataset_root = Path(cfg["dataset_root"])
+    raw_dir = Path(cfg["raw_las_dir"])
 
     if not raw_dir.exists():
         raise FileNotFoundError(f"未找到原始数据目录: {raw_dir}")
 
     # 创建输出目录
     out_dirs = {}
-    for split in CFG["output_splits"]:
+    for split in cfg["output_splits"]:
         out_dir = dataset_root / split
         out_dir.mkdir(parents=True, exist_ok=True)
         out_dirs[split] = out_dir
@@ -231,7 +259,7 @@ def main() -> None:
     # 保存配置副本，便于追溯
     cfg_path = dataset_root / "prepare_config.json"
     cfg_dump = {}
-    for k, v in CFG.items():
+    for k, v in cfg.items():
         if isinstance(v, Path):
             cfg_dump[k] = str(v)
         else:
@@ -243,13 +271,13 @@ def main() -> None:
     if len(las_files) == 0:
         raise RuntimeError(f"目录下没有 .las 文件: {raw_dir}")
 
-    rng = np.random.RandomState(CFG["seed"])
+    rng = np.random.RandomState(cfg["seed"])
 
     total = {"train": 0, "val": 0, "test": 0, "skipped": 0}
     print(f"找到 {len(las_files)} 个 LAS 文件，开始处理...")
 
     for las_file in tqdm(las_files, desc="Processing LAS"):
-        stats = process_las(las_file, out_dirs, rng)
+        stats = process_las(las_file, out_dirs, rng, cfg)
         for k in total:
             total[k] += stats.get(k, 0)
 

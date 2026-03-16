@@ -1,0 +1,47 @@
+﻿prepare:
+  dataset_root: "datasets/SlopeLAS"
+  raw_las_dir: "datasets/SlopeLAS/raw_las"
+  output_splits: ["train", "val", "test"]
+  use_voxel_subsample: true
+  grid_size: 0.04
+  use_sliding_window: true
+  block_size: 20.0
+  stride: 10.0
+  min_points: 4096
+  num_points: 65536
+  split_ratio:
+    train: 0.8
+    val: 0.1
+    test: 0.1
+  label_map:
+    0: 0
+    1: 1
+    2: 2
+  unknown_to_background: true
+  seed: 42
+
+train:
+  dataset_root: "datasets/SlopeLAS"
+  logs_dir: "runs"
+  exp_name: null
+  epochs: 20
+  batch_size: 6
+  num_workers: 4
+  num_points: 65536
+  adam_lr: 0.0005
+  scheduler_gamma: 0.98
+  save_freq: 5
+  neighbors: 32
+  decimation: 4
+  use_cuda: true
+  max_class_weight: 15.0
+  class_weight_smooth_eps: 0.02
+
+test:
+  model_path: "runs/your_run/checkpoint_20.pth"
+  input_dir: "datasets/SlopeLAS/infer_las"
+  out_suffix: "_pred"
+  num_points: 65536
+  num_classes: 3
+  block_size: 20.0
+  use_cuda_if_available: true
