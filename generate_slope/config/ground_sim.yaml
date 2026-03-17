@@ -1,44 +1,45 @@
 input:
-  dir: "D:/Feng/myoriginaldatas"
-  recursive: false
+  dir: "D:/Feng/myoriginaldatas"               # 输入 LAS 目录
+  recursive: false                             # 是否递归扫描子目录
 
 ground_filter:
-  class_value: 2
-  reset_classification: 0
-  output_dir: "D:/Feng/ground_points"
-  save_intermediate: false
-  min_points: 0
+  use_classification: false                    # 是否根据 classification 筛选地面点
+  class_value: 2                               # 地面点分类值（仅在 use_classification=true 时生效）
+  reset_classification: 0                      # 过滤后统一重置的分类值
+  output_dir: "D:/Feng/ground_points"          # 中间地面点输出目录（save_intermediate=true 时生效）
+  save_intermediate: false                     # 是否保存中间地面点文件
+  min_points: 0                                # 地面点不足该数直接跳过（0表示不限制）
 
 output:
-  dir: "D:/Feng/sim_output"
-  suffix: "_sim"
+  dir: "D:/Feng/sim_output"                    # 模拟输出目录
+  suffix: "_sim"                               # 输出文件后缀
 
 label_policy:
-  reset_all: true
-  background: 0
-  bump: 1
-  depression: 2
+  reset_all: true                              # 模拟前是否重置全量分类
+  background: 0                                # 背景类标签
+  bump: 1                                      # 凸起类标签
+  depression: 2                                # 凹陷类标签
 
 ratio:
-  abnormal_ratio: 0.05
-  bump_ratio: 0.6
-  depression_ratio: 0.4
+  abnormal_ratio: 0.05                         # 异常点总比例（点数比例）
+  bump_ratio: 0.6                              # 异常中凸起占比
+  depression_ratio: 0.4                        # 异常中凹陷占比
 
 defect:
-  radius: [2.0, 4.0]
-  dz: [0.5, 2.0]
-  smooth_type: gaussian
-  margin_ratio: 0.02
-  overlap_policy: avoid
-  max_defects: 2000
-  max_attempts: 5000
-  progress_every: 10
+  radius: [2.0, 4.0]                           # 半径范围（米）
+  dz: [0.5, 2.0]                               # 起伏幅度范围（米）
+  smooth_type: gaussian                        # 平滑方式：linear | quadratic | gaussian | [list]
+  margin_ratio: 0.02                           # 边界留白比例，避免靠近边界
+  overlap_policy: avoid                        # 是否允许重叠：avoid | allow
+  max_defects: 2000                            # 最大灾害数量
+  max_attempts: 5000                           # 最大尝试次数
+  progress_every: 10                           # 每 N 次尝试输出一次进度
 
 noise:
-  std: 0.0
+  std: 0.0                                     # 坐标噪声标准差（米）
 
-seed: 2025
+seed: 2025                                     # 随机种子（影响灾害分布）
 
 logging:
-  save_log: true
-  log_name: run_log.json
+  save_log: true                               # 是否保存日志
+  log_name: run_log.json                       # 日志文件名

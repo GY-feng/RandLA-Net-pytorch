@@ -253,6 +253,7 @@ def main():
     input_dir = Path(get(cfg, "input.dir", "D:/Feng/myoriginaldatas"))
     recursive = bool(get(cfg, "input.recursive", False))
 
+    use_classification = bool(get(cfg, "ground_filter.use_classification", True))
     ground_class = int(get(cfg, "ground_filter.class_value", 2))
     reset_class = int(get(cfg, "ground_filter.reset_classification", 0))
     ground_out_dir = Path(get(cfg, "ground_filter.output_dir", "D:/Feng/ground_points"))
@@ -280,39 +281,53 @@ def main():
 
         virtual_ground_path = ground_out_dir / f"{fpath.stem}.las"
 
-        if save_intermediate:
-            filtered_path = filter_ground_and_reset(
-                fpath,
-                ground_out_dir,
-                ground_class=ground_class,
-                reset_class=reset_class,
-            )
-            if filtered_path is None:
-                print(f"  skip: no ground points (class={ground_class})")
-                continue
-            if min_points > 0:
-                las = laspy.read(filtered_path)
-                if len(las.points) < min_points:
-                    print(f"  skip: ground points {len(las.points)} < min_points {min_points}")
+        if use_classification:
+            if save_intermediate:
+                filtered_path = filter_ground_and_reset(
+                    fpath,
+                    ground_out_dir,
+                    ground_class=ground_class,
+                    reset_class=reset_class,
+                )
+                if filtered_path is None:
+                    print(f"  skip: no ground points (class={ground_class})")
                     continue
-            item = process_one_las(filtered_path, out_dir, cfg)
+                if min_points > 0:
+                    las = laspy.read(filtered_path)
+                    if len(las.points) < min_points:
+                        print(f"  skip: ground points {len(las.points)} < min_points {min_points}")
+                        continue
+                item = process_one_las(filtered_path, out_dir, cfg)
+            else:
+                filtered_las = filter_ground_and_reset_in_memory(
+                    fpath,
+                    ground_class=ground_class,
+                    reset_class=reset_class,
+                )
+                if filtered_las is None:
+                    print(f"  skip: no ground points (class={ground_class})")
+                    continue
+                if min_points > 0 and len(filtered_las.points) < min_points:
+                    print(f"  skip: ground points {len(filtered_las.points)} < min_points {min_points}")
+                    continue
+                item = simulate_on_las(
+                    filtered_las,
+                    out_dir,
+                    cfg,
+                    seed_key=str(virtual_ground_path),
+                    source_stem=fpath.stem,
+                )
         else:
-            filtered_las = filter_ground_and_reset_in_memory(
-                fpath,
-                ground_class=ground_class,
-                reset_class=reset_class,
-            )
-            if filtered_las is None:
-                print(f"  skip: no ground points (class={ground_class})")
-                continue
-            if min_points > 0 and len(filtered_las.points) < min_points:
-                print(f"  skip: ground points {len(filtered_las.points)} < min_points {min_points}")
+            # Input LAS already contains only ground points
+            las = laspy.read(fpath)
+            if min_points > 0 and len(las.points) < min_points:
+                print(f"  skip: points {len(las.points)} < min_points {min_points}")
                 continue
             item = simulate_on_las(
-                filtered_las,
+                las,
                 out_dir,
                 cfg,
-                seed_key=str(virtual_ground_path),
+                seed_key=str(fpath),
                 source_stem=fpath.stem,
             )
         add_file_report(report, item)
