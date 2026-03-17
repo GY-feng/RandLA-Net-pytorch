@@ -10,7 +10,7 @@
   min_points: 4096                             # 最小点数阈值（不足则跳过）
   num_points: 65536                            # 每块采样点数
   split_ratio:                                 # 训练/验证/测试比例
-    train: 0.8                                 # 训练集比例
+    train: 0.9                                 # 训练集比例
     val: 0.1                                   # 验证集比例
     test: 0.0                                  # 测试集比例（设为0则不产出）
   label_map:                                   # 标签映射（原标签->新标签）
@@ -25,10 +25,10 @@ train:
   logs_dir: "runs"                             # 训练日志与权重保存目录
   exp_name: null                               # 实验名（null 为时间戳）
   epochs: 20                                   # 训练轮数
-  batch_size: 4                                # batch 大小
-  num_workers: 4                               # DataLoader 并发数
+  batch_size: 8                              # batch 大小
+  num_workers: 6                               # DataLoader 并发数
   num_points: 65536                            # 每个样本点数
-  adam_lr: 0.0005                              # Adam 学习率
+  adam_lr: 0.0003                              # Adam 学习率
   scheduler_gamma: 0.98                        # LR 指数衰减系数
   save_freq: 5                                 # 每 N 轮保存一次
   neighbors: 16                                # RandLA 邻居数

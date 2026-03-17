@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import time
+import csv
 from datetime import datetime
 from pathlib import Path
 import argparse
@@ -238,6 +239,14 @@ def train(cfg):
         print("DEBUG forward failed:", e)
         model.train()
 
+    metrics_path = exp_logs / "metrics.csv"
+    if not metrics_path.exists():
+        with open(metrics_path, "w", encoding="utf-8", newline="") as f:
+            writer_csv = csv.writer(f)
+            header = ["epoch", "train_loss", "val_loss", "val_OA", "val_mIoU"]
+            header += [f"iou_{i}" for i in range(num_classes)]
+            writer_csv.writerow(header)
+
     with SummaryWriter(exp_logs) as writer:
         for epoch in range(1, epochs + 1):
             print(f"\n=== EPOCH {epoch}/{epochs} ===")
@@ -285,6 +294,12 @@ def train(cfg):
             writer.add_scalar("Metric/mIoU", mean_val_iou, epoch)
             for i, iou in enumerate(val_ious):
                 writer.add_scalar(f"Class_IoU/{i}", float(np.nan_to_num(iou)), epoch)
+
+            with open(metrics_path, "a", encoding="utf-8", newline="") as f:
+                writer_csv = csv.writer(f)
+                row = [epoch, mean_train_loss, val_loss, val_OA, mean_val_iou]
+                row += [float(np.nan_to_num(iou)) for iou in val_ious]
+                writer_csv.writerow(row)
 
             if epoch % save_freq == 0 or epoch == epochs:
                 save_path = exp_logs / f"checkpoint_{epoch:02d}.pth"

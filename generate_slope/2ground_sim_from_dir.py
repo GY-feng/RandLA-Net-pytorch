@@ -195,7 +195,12 @@ def simulate_on_las(las, out_dir: Path, cfg, *, seed_key: str, source_stem: str)
 
         if affected == 0:
             if progress_every and (attempt % progress_every == 0 or attempt == max_attempts):
-                print(f"[Sim] attempt {attempt}/{max_attempts}, defects {defect_count}/{max_defects}")
+                abnormal_points = bump_points + dep_points
+                abnormal_pct = (abnormal_points / max(1, total_points)) * 100.0
+                print(
+                    f"[Sim] attempt {attempt}/{max_attempts}, defects {defect_count}/{max_defects}, "
+                    f"abnormal {abnormal_pct:.2f}%"
+                )
             continue
 
         existing.append((cx, cy, radius))
@@ -205,7 +210,12 @@ def simulate_on_las(las, out_dir: Path, cfg, *, seed_key: str, source_stem: str)
         else:
             dep_points += affected
         if progress_every and (attempt % progress_every == 0 or attempt == max_attempts):
-            print(f"[Sim] attempt {attempt}/{max_attempts}, defects {defect_count}/{max_defects}")
+            abnormal_points = bump_points + dep_points
+            abnormal_pct = (abnormal_points / max(1, total_points)) * 100.0
+            print(
+                f"[Sim] attempt {attempt}/{max_attempts}, defects {defect_count}/{max_defects}, "
+                f"abnormal {abnormal_pct:.2f}%"
+            )
 
     out_dir = Path(out_dir)
     suffix = str(get(cfg, "output.suffix", "_sim"))

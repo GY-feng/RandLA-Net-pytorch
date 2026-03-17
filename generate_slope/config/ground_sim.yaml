@@ -1,5 +1,5 @@
 input:
-  dir: "D:/Feng/myoriginaldatas"               # 输入 LAS 目录
+  dir: "D:/Feng/midSeg"                        # 输入 LAS 目录
   recursive: false                             # 是否递归扫描子目录
 
 ground_filter:
@@ -21,9 +21,9 @@ label_policy:
   depression: 2                                # 凹陷类标签
 
 ratio:
-  abnormal_ratio: 0.05                         # 异常点总比例（点数比例）
-  bump_ratio: 0.6                              # 异常中凸起占比
-  depression_ratio: 0.4                        # 异常中凹陷占比
+  abnormal_ratio: 0.5                          # 异常点总比例（点数比例）
+  bump_ratio: 0.5                              # 异常中凸起占比
+  depression_ratio: 0.5                        # 异常中凹陷占比
 
 defect:
   radius: [2.0, 4.0]                           # 半径范围（米）
