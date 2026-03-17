@@ -1,0 +1,17 @@
+LAS dir: datasets/SlopeLAS/raw_las
+Recursive: False
+Total files: 4
+--------------------------------------------------------------------------------
+DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim.las | N=258996 | area=1006.35 m^2 | density=257.36 pts/m^2
+DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim.las | N=771255 | area=1908.36 m^2 | density=404.15 pts/m^2
+DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim.las | N=771255 | area=1908.36 m^2 | density=404.15 pts/m^2
+DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim.las | N=31939518 | area=34756.08 m^2 | density=918.96 pts/m^2
+--------------------------------------------------------------------------------
+Total points: 33741024
+Mean points: 8435256.0
+Median points: 771255.0
+Min points: 258996
+Max points: 31939518
+Mean density: 496.15 pts/m^2
+Median density: 404.15 pts/m^2
+Log saved: /home/zjf/projects/myrandla/tools/log/las_stats_20260317_145335.txt

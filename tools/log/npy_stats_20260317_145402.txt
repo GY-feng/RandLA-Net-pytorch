@@ -1,0 +1,356 @@
+Dataset root: datasets/SlopeLAS
+Splits: ['train', 'val', 'test']
+Block size: 20.0
+--------------------------------------------------------------------------------
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim_block_00001.npy | N=65536 | density_bbox=176.39 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim_block_00002.npy | N=65536 | density_bbox=243.54 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim_block_00004.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim_block_00005.npy | N=65536 | density_bbox=167.48 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00000.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00002.npy | N=65536 | density_bbox=257.73 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00003.npy | N=65536 | density_bbox=260.26 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00004.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00005.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00006.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00007.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00008.npy | N=65536 | density_bbox=214.87 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00009.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00010.npy | N=65536 | density_bbox=168.57 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00011.npy | N=65536 | density_bbox=168.57 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00012.npy | N=65536 | density_bbox=471.91 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00013.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00015.npy | N=65536 | density_bbox=202.28 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00001.npy | N=65536 | density_bbox=176.39 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00002.npy | N=65536 | density_bbox=257.73 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00003.npy | N=65536 | density_bbox=260.26 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00004.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00005.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00006.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00007.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00008.npy | N=65536 | density_bbox=214.87 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00010.npy | N=65536 | density_bbox=168.57 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00011.npy | N=65536 | density_bbox=168.57 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00012.npy | N=65536 | density_bbox=471.91 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00013.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00014.npy | N=65536 | density_bbox=187.83 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00015.npy | N=65536 | density_bbox=202.28 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00000.npy | N=65536 | density_bbox=411.57 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00001.npy | N=65536 | density_bbox=275.09 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00002.npy | N=65536 | density_bbox=208.21 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00003.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00004.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00006.npy | N=65536 | density_bbox=398.74 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00007.npy | N=65536 | density_bbox=235.97 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00008.npy | N=65536 | density_bbox=184.35 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00010.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00011.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00012.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00013.npy | N=65536 | density_bbox=298.82 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00014.npy | N=65536 | density_bbox=1186.17 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00015.npy | N=65536 | density_bbox=220.75 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00016.npy | N=65536 | density_bbox=167.48 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00017.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00018.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00019.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00020.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00021.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00022.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00023.npy | N=65536 | density_bbox=285.83 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00024.npy | N=65536 | density_bbox=730.46 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00025.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00026.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00027.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00029.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00031.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00033.npy | N=65536 | density_bbox=273.92 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00034.npy | N=65536 | density_bbox=657.41 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00035.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00037.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00038.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00039.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00040.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00041.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00042.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00043.npy | N=65536 | density_bbox=262.97 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00045.npy | N=65536 | density_bbox=173.00 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00046.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00047.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00049.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00050.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00052.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00054.npy | N=65536 | density_bbox=547.85 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00056.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00057.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00058.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00059.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00060.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00061.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00062.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00063.npy | N=65536 | density_bbox=243.49 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00064.npy | N=65536 | density_bbox=505.70 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00065.npy | N=65536 | density_bbox=190.56 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00066.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00067.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00068.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00069.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00070.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00072.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00073.npy | N=65536 | density_bbox=243.49 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00074.npy | N=65536 | density_bbox=505.70 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00076.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00077.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00079.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00081.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00083.npy | N=65536 | density_bbox=239.06 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00084.npy | N=65536 | density_bbox=486.97 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00085.npy | N=65536 | density_bbox=212.07 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00087.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00088.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00090.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00091.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00094.npy | N=65536 | density_bbox=424.14 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00095.npy | N=65536 | density_bbox=226.69 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00096.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00097.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00098.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00100.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00101.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00102.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00103.npy | N=65536 | density_bbox=212.07 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00104.npy | N=65536 | density_bbox=386.71 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00105.npy | N=65536 | density_bbox=234.79 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00106.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00107.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00108.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00109.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00110.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00111.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00112.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00113.npy | N=65536 | density_bbox=208.70 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00114.npy | N=65536 | density_bbox=375.67 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00115.npy | N=65536 | density_bbox=252.85 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00116.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00117.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00118.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00119.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00120.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00121.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00122.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00123.npy | N=65536 | density_bbox=205.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00124.npy | N=65536 | density_bbox=365.23 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00125.npy | N=65536 | density_bbox=268.33 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00126.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00127.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00129.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00130.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00131.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00134.npy | N=65536 | density_bbox=337.14 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00135.npy | N=65536 | density_bbox=292.18 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00136.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00137.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00138.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00139.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00140.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00141.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00143.npy | N=65536 | density_bbox=190.55 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00145.npy | N=65536 | density_bbox=313.05 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00146.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00147.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00149.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00151.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00152.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00153.npy | N=65536 | density_bbox=185.19 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00154.npy | N=65536 | density_bbox=305.77 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00155.npy | N=65536 | density_bbox=337.14 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00156.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00158.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00159.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00160.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00161.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00162.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00163.npy | N=65536 | density_bbox=177.68 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00164.npy | N=65536 | density_bbox=285.83 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00165.npy | N=65536 | density_bbox=375.67 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00166.npy | N=65536 | density_bbox=175.31 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00167.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00168.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00169.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00170.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00172.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00173.npy | N=65536 | density_bbox=173.00 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00174.npy | N=65536 | density_bbox=273.92 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00176.npy | N=65536 | density_bbox=182.61 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00177.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00178.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00179.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00180.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00181.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00183.npy | N=65536 | density_bbox=170.76 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00184.npy | N=65536 | density_bbox=268.33 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00185.npy | N=65536 | density_bbox=469.58 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00187.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00188.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00191.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00192.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00193.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00194.npy | N=65536 | density_bbox=252.85 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00195.npy | N=65536 | density_bbox=525.93 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00197.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00198.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00199.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00200.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00201.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00203.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00204.npy | N=65536 | density_bbox=243.49 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00205.npy | N=65536 | density_bbox=597.65 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00206.npy | N=65536 | density_bbox=212.07 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00207.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00208.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00209.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00210.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00211.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00212.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00214.npy | N=65536 | density_bbox=239.06 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00215.npy | N=65536 | density_bbox=730.46 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00216.npy | N=65536 | density_bbox=226.70 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00217.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00219.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00220.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00221.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00222.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00224.npy | N=65536 | density_bbox=230.67 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00225.npy | N=65536 | density_bbox=876.55 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00226.npy | N=65536 | density_bbox=239.06 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00227.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00228.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00229.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00230.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00231.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00232.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00233.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00235.npy | N=65536 | density_bbox=1095.69 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00237.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00238.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00239.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00240.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00241.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00242.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00243.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00244.npy | N=65536 | density_bbox=219.14 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00247.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00248.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00249.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00250.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00252.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00253.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00255.npy | N=65536 | density_bbox=292.18 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00256.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00258.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00259.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00260.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00261.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00263.npy | N=65536 | density_bbox=205.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00265.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00266.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00267.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00268.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00269.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00270.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00271.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00273.npy | N=65536 | density_bbox=359.87 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00274.npy | N=65536 | density_bbox=170.76 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00276.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00278.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00279.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00281.npy | N=65536 | density_bbox=180.11 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00282.npy | N=65536 | density_bbox=795.88 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00283.npy | N=65536 | density_bbox=206.86 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00285.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00286.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00287.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00288.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00289.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00290.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00291.npy | N=65536 | density_bbox=968.21 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00293.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00294.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00295.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00297.npy | N=65536 | density_bbox=273.67 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00298.npy | N=65536 | density_bbox=298.27 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00299.npy | N=65536 | density_bbox=500.87 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00302.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00303.npy | N=65536 | density_bbox=213.22 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00304.npy | N=65536 | density_bbox=442.44 pts/m^2 | density_block=163.84 pts/m^2
+[train] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00305.npy | N=65536 | density_bbox=510.50 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim_block_00000.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting1_sim_block_00003.npy | N=65536 | density_bbox=187.61 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00001.npy | N=65536 | density_bbox=176.39 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00000.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2_sim_block_00009.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00028.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00030.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00051.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00053.npy | N=65536 | density_bbox=252.85 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00071.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00082.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00086.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00092.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00093.npy | N=65536 | density_bbox=222.85 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00128.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00132.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00142.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00157.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00171.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00182.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00189.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00196.npy | N=65536 | density_bbox=202.28 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00202.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00218.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00234.npy | N=65536 | density_bbox=226.69 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00246.npy | N=65536 | density_bbox=273.92 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00257.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00262.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00272.npy | N=65536 | density_bbox=199.22 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00277.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00280.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00284.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00292.npy | N=65536 | density_bbox=231.78 pts/m^2 | density_block=163.84 pts/m^2
+[val] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00296.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202507101026_307_云梧-K340-955-995-点云-grass-cutting2 - 副本_sim_block_00014.npy | N=65536 | density_bbox=187.83 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00005.npy | N=65536 | density_bbox=351.46 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00009.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00032.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00036.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00044.npy | N=65536 | density_bbox=597.65 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00048.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00055.npy | N=65536 | density_bbox=180.11 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00075.npy | N=65536 | density_bbox=202.28 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00078.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00080.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00089.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00099.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00133.npy | N=65536 | density_bbox=196.24 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00144.npy | N=65536 | density_bbox=320.69 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00148.npy | N=65536 | density_bbox=166.44 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00150.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00175.npy | N=65536 | density_bbox=410.88 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00186.npy | N=65536 | density_bbox=193.36 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00190.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00213.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00223.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00236.npy | N=65536 | density_bbox=252.85 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00245.npy | N=65536 | density_bbox=1643.53 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00251.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00254.npy | N=65536 | density_bbox=212.07 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00264.npy | N=65536 | density_bbox=320.69 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00275.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00300.npy | N=65536 | density_bbox=201.87 pts/m^2 | density_block=163.84 pts/m^2
+[test] DJI_202508221426_217_英怀阳江方向-K86-850-点云-bare-cutting1 - 副本_sim_block_00301.npy | N=65536 | density_bbox=166.43 pts/m^2 | density_block=163.84 pts/m^2
+--------------------------------------------------------------------------------
+Total files: 344
+Total points: 22544384
+Mean points: 65536.0
+Median points: 65536.0
+Min points: 65536
+Max points: 65536
+Log saved: /home/zjf/projects/myrandla/tools/log/npy_stats_20260317_145402.txt
