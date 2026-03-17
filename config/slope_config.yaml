@@ -1,49 +1,49 @@
 ﻿prepare:
-  dataset_root: "datasets/SlopeLAS"
-  raw_las_dir: "datasets/SlopeLAS/raw_las"
-  output_splits: ["train", "val", "test"]
-  use_voxel_subsample: true
-  grid_size: 0.04
-  use_sliding_window: true
-  block_size: 20.0
-  stride: 10.0
-  min_points: 4096
-  num_points: 65536
-  split_ratio:
-    train: 0.8
-    val: 0.1
-    test: 0.1
-  label_map:
-    0: 0
-    1: 1
-    2: 2
-  unknown_to_background: true
-  seed: 42
+  dataset_root: "datasets/SlopeLAS"            # 数据集根目录
+  raw_las_dir: "datasets/SlopeLAS/raw_las"     # 原始 LAS 输入目录
+  output_splits: ["train", "val", "test"]      # 输出划分名称
+  use_voxel_subsample: true                    # 是否体素下采样
+  grid_size: 0.04                              # 体素网格大小（米）
+  use_sliding_window: true                     # 是否滑窗切块
+  block_size: 20.0                             # 滑窗块大小（米）
+  stride: 10.0                                 # 滑窗步长（米）
+  min_points: 4096                             # 最小点数阈值（不足则跳过）
+  num_points: 65536                            # 每块采样点数
+  split_ratio:                                 # 训练/验证/测试比例
+    train: 0.8                                 # 训练集比例
+    val: 0.1                                   # 验证集比例
+    test: 0.0                                  # 测试集比例（设为0则不产出）
+  label_map:                                   # 标签映射（原标签->新标签）
+    0: 0                                       # 正常/背景
+    1: 1                                       # 凸起
+    2: 2                                       # 凹陷
+  unknown_to_background: true                  # 未知标签是否映射为背景
+  seed: 42                                     # 随机种子
 
 train:
-  dataset_root: "datasets/SlopeLAS"
-  logs_dir: "runs"
-  exp_name: null
-  epochs: 20
-  batch_size: 6
-  num_workers: 4
-  num_points: 65536
-  adam_lr: 0.0005
-  scheduler_gamma: 0.98
-  save_freq: 5
-  neighbors: 32
-  decimation: 4
-  use_cuda: true
-  max_class_weight: 15.0
-  class_weight_smooth_eps: 0.02
+  dataset_root: "datasets/SlopeLAS"            # 数据集根目录
+  logs_dir: "runs"                             # 训练日志与权重保存目录
+  exp_name: null                               # 实验名（null 为时间戳）
+  epochs: 20                                   # 训练轮数
+  batch_size: 4                                # batch 大小
+  num_workers: 4                               # DataLoader 并发数
+  num_points: 65536                            # 每个样本点数
+  adam_lr: 0.0005                              # Adam 学习率
+  scheduler_gamma: 0.98                        # LR 指数衰减系数
+  save_freq: 5                                 # 每 N 轮保存一次
+  neighbors: 16                                # RandLA 邻居数
+  decimation: 4                                # RandLA 降采样因子
+  use_cuda: true                               # 是否使用 CUDA
+  max_class_weight: 10.0                       # 类别权重上限
+  class_weight_smooth_eps: 0.05                # 类别权重平滑项
 
 test:
-  model_path: "runs/your_run/checkpoint_20.pth"
-  input_dir: "datasets/SlopeLAS/infer_las"
-  output_dir: null
-  out_suffix: "_pred"
-  num_points: 65536
-  num_classes: 3
-  block_size: 20.0
-  use_cuda_if_available: true
-  report_class_distribution: false
+  model_path: "runs/2026-03-16_21-13/checkpoint_18.pth"  # 测试权重路径
+  input_dir: "datasets/SlopeLAS/raw_las"                # 输入 LAS 目录
+  output_dir: "datasets/SlopeLAS/predicted"             # 输出目录（空则回到 input_dir）
+  out_suffix: "_pred"                                   # 输出文件后缀
+  num_points: 32768                                     # 推理块点数
+  num_classes: 3                                        # 类别数
+  block_size: 20.0                                      # 推理块大小（米）
+  use_cuda_if_available: true                           # 有 CUDA 则使用
+  report_class_distribution: true                       # 输出类别分布对比
