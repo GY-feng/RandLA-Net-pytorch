@@ -257,6 +257,7 @@ def main():
     reset_class = int(get(cfg, "ground_filter.reset_classification", 0))
     ground_out_dir = Path(get(cfg, "ground_filter.output_dir", "D:/Feng/ground_points"))
     save_intermediate = bool(get(cfg, "ground_filter.save_intermediate", True))
+    min_points = int(get(cfg, "ground_filter.min_points", 0))
 
     out_dir = Path(get(cfg, "output.dir", "D:/Feng/sim_output"))
     ensure_dir(out_dir)
@@ -289,6 +290,11 @@ def main():
             if filtered_path is None:
                 print(f"  skip: no ground points (class={ground_class})")
                 continue
+            if min_points > 0:
+                las = laspy.read(filtered_path)
+                if len(las.points) < min_points:
+                    print(f"  skip: ground points {len(las.points)} < min_points {min_points}")
+                    continue
             item = process_one_las(filtered_path, out_dir, cfg)
         else:
             filtered_las = filter_ground_and_reset_in_memory(
@@ -298,6 +304,9 @@ def main():
             )
             if filtered_las is None:
                 print(f"  skip: no ground points (class={ground_class})")
+                continue
+            if min_points > 0 and len(filtered_las.points) < min_points:
+                print(f"  skip: ground points {len(filtered_las.points)} < min_points {min_points}")
                 continue
             item = simulate_on_las(
                 filtered_las,

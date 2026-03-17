@@ -27,6 +27,7 @@ defect:
   overlap_policy: avoid      # avoid | allow
   max_defects: 500
   max_attempts: 2000
+  progress_every: 10
 
 noise:
   std: 0.0
