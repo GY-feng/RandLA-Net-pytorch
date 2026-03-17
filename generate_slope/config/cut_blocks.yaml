@@ -1,0 +1,12 @@
+input:
+  dir: "D:/Feng/myoriginaldatas"        # 输入 LAS 目录
+  recursive: false                      # 是否递归扫描
+
+output:
+  dir: "D:/Feng/cut_blocks"             # 切块输出目录
+
+cut:
+  max_long_edge: 100.0                  # 允许的最长边阈值（超过则继续切）
+  min_short_edge: 30.0                  # 允许的最短边阈值（小于则停止切）
+  overlap_ratio: 0.1                    # 相邻块重叠比例（0~0.5）
+  min_points: 4096                      # 最小点数阈值，少于则丢弃

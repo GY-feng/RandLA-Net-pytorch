@@ -141,8 +141,9 @@ def simulate_on_las(las, out_dir: Path, cfg, *, seed_key: str, source_stem: str)
     max_defects = int(defect_cfg.get("max_defects", 500))
     max_attempts = int(defect_cfg.get("max_attempts", 2000))
     overlap_policy = defect_cfg.get("overlap_policy", "avoid")
+    progress_every = int(defect_cfg.get("progress_every", 0))
 
-    for _ in range(max_attempts):
+    for attempt in range(1, max_attempts + 1):
         abnormal_points = bump_points + dep_points
         if abnormal_points >= target_abnormal or defect_count >= max_defects:
             break
@@ -193,6 +194,8 @@ def simulate_on_las(las, out_dir: Path, cfg, *, seed_key: str, source_stem: str)
         )
 
         if affected == 0:
+            if progress_every and (attempt % progress_every == 0 or attempt == max_attempts):
+                print(f"[Sim] attempt {attempt}/{max_attempts}, defects {defect_count}/{max_defects}")
             continue
 
         existing.append((cx, cy, radius))
@@ -201,6 +204,8 @@ def simulate_on_las(las, out_dir: Path, cfg, *, seed_key: str, source_stem: str)
             bump_points += affected
         else:
             dep_points += affected
+        if progress_every and (attempt % progress_every == 0 or attempt == max_attempts):
+            print(f"[Sim] attempt {attempt}/{max_attempts}, defects {defect_count}/{max_defects}")
 
     out_dir = Path(out_dir)
     suffix = str(get(cfg, "output.suffix", "_sim"))
